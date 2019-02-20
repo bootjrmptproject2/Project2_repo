@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Education System in the USA</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style type="text/css">
+    .jumbotron{
+      margin-top: 20px;
+      background-image: url("../static/book-books-bookshelf-159621.jpg");
+      background-size: cover;
+      color:white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Education in the US</h1>
+        <p>Make selections below to choose what you'd like to explore in terms of education</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p>This project makes use of the open data bases available in <a href="https://www.greatschools.org/"> Great Schools </a> and <a href="https://www.kaggle.com/theworldbank/education-statistics"> Education statistics from the world bank </a>, on top of these, we analyzed the correlation with <a href="">Crime rates</a> and <a href="">House hold incomes</a>  </p>
+        <p>We're looking to provide a platform for people interested in knowing a little bit more about how different demographics affect the education system and vice versa. The following are visualizations brought together by our team of data experts on topics we thought could have interesting correlations. Feel free to use the selection list below to choose between:
+        <ul>
+          <li>
+          Seeing a map of california with layers that include: 
+          <ul>
+            <li> A clustered view of schools in the zone
+            </li>
+            <li> A heat map showing the best (greenest) and worst (reddest) rated schools
+            </li>
+            <li> A heatmap of crime rates 
+            </li>
+            <li>
+            A heatmap of household incomes.
+            </li>
+          </ul>
+          </li>
+          <li> A series of Graphs correlating:  
+            <ul>
+              <li>
+              Rating of Schools vs. Household income
+              </li>
+              <li>
+              Rating of Schools vs Crime Rates
+              </li>
+              <li>
+              Crime Rates vs Household income
+              </li>
+            </ul>
+          </li>
+          <li>
+          Other Interesting Graphs about education
+          </li>
+        </ul>
+        </p>
+        <p>
+          Feel free to browse the webpage and see all the different types of visualizations we have prepared for you!
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="well">
+          <h5>Select the visualization:</h5>
+          <select id="selGraph">
+            <option value="" selected disabled hidden>Choose here</option>
+            <option value = "clusteredHeatMap">
+              Layered map of California
+            </option>
+            <option value = "schoolCrime">
+              Scatter plot School Ratings vs Crime Rates
+            </option>
+            <option value = "schoolHHI">
+              Scatter plot School Ratings vs Household Income
+            </option>
+            <option value = "crimeIncome">
+              Scatter plot Crime Rates vs Household Income
+            </option>
+            <option value = "others">
+              Other interesting graphs!
+            </option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div id="map"></div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div id="Graph"></div>
+    </div>
+  </div>
+
+  <!-- <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!-- <script src="{{ url_for('static', filename='js/bonus.js') }}"></script> -->
+  <script src="../static/js/app.js"></script>
+
+</body>
+
+</html>
