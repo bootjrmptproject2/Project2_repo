@@ -1,1 +1,1 @@
-config.js
+API_KEY = "98d1830833800c9133ce4854f15ba749"
