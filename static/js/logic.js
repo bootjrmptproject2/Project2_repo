@@ -13,7 +13,7 @@ function createMap(schools) {
       "Light Map": lightmap
     };
   
-// Create an overlayMaps object to hold the bikeStations layer
+// Create an overlayMaps object to hold the schoollayer
     var overlayMaps = {
       "Schools": schools
     };
@@ -33,13 +33,13 @@ function createMap(schools) {
   
   function createMarkers(response) {
   
-// Pull the "stations" property off of response.data
+// Pull the "schools" property off of response.data
     var schools = response.schools;
 
-// Initialize an array to hold bike markers
+// Initialize an array to hold school markers
     var schoolMarkers = [];
   
-// Loop through the stations array
+// Loop through the school array
     for (var index = 0; index < schools.length; index++) {
       var school = schools[index];
   
@@ -47,11 +47,11 @@ function createMap(schools) {
       var schoolMarker = L.marker([school.lat, school.lon])
         .bindPopup("<h3>" + school.name + "<h3><h3>Type: " + school.type + "<h3>" + "<h3><h3>Parent Rating: " + school.parentRating);
   
- // Add the marker to the bikeMarkers array
+ // Add the marker to the schoolMarkers array
       schoolMarkers.push(schoolMarker);
     }
   
-// Create a layer group made from the bike markers array, pass it into the createMap function
+// Create a layer group made from the school markers array, pass it into the createMap function
     createMap(L.layerGroup(schoolMarkers));
   }
   
@@ -68,6 +68,6 @@ function createMap(schools) {
        }
   }
   
-  // Perform an API call to the Citi Bike API to get station information. Call createMarkers when complete
+  // Perform an API call to the Great Schools API to get station information. Call createMarkers when complete
   d3.xml("https://api.greatschools.org/schools/nearby?key=98d1830833800c9133ce4854f15ba749&state=CA&lat=37.8272&lon=-122.2913&radius=20&limit=100", createMarkers);
   
