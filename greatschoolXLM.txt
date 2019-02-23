@@ -1,3 +1,5 @@
 url = https://api.greatschools.org/schools/nearby?key=98d1830833800c9133ce4854f15ba749&state=CA&lat=37.8272&lon=-122.2913&type=public&radius=40&limit=200
 
 Feel free to adjust parameters!
+
+Documentation is here: https://www.greatschools.org/api/docs/nearby-schools/
