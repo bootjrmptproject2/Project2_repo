@@ -101,7 +101,7 @@ function createMap(schools) {
     console.log(value)
     switch(value) {
         case "clusteredHeatMap":
-        d3.xml(url, createMarkers);
+        d3.xml("https://cors-anywhere.herokuapp.com/https://api.greatschools.org/schools/nearby?key=98d1830833800c9133ce4854f15ba749&state=CA&schoolType=public&zip=94502&limit=5", createMarkers);
 
         break;
         // case y:
@@ -111,21 +111,20 @@ function createMap(schools) {
           // code block
        }  
   };
-  
+  var schoolArray = []
   // Perform an API call to the Great Schools API to get station information. Call createMarkers when complete
-  for (var index = 0; index < 5; index++) {
+  for (var index = 0; index < zipcodes.length; index++) {
     var zip = zipcodes[index]
-    var url = "https://cors-anywhere.herokuapp.com/https://api.greatschools.org/schools/nearby?key=" + school_api + "&state=CA&schoolType=public&zip="+ zip + "limit=4"
-    d3.xml(url, function(err, data){
+    var url = "https://api.greatschools.org/schools/nearby?key=" + school_api + "&state=CA&schoolType=public&zip="+ zip + "&limit=100"
+    d3.xml(url, funtion(data) {
       console.log(data)
     });
+    
   };
 
+  
 
 
-
-
- 
 
 
 
