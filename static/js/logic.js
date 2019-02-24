@@ -115,12 +115,14 @@ function createMap(schools) {
   // Perform an API call to the Great Schools API to get station information. Call createMarkers when complete
   for (var index = 0; index < zipcodes.length; index++) {
     var zip = zipcodes[index]
-    var url = "https://api.greatschools.org/schools/nearby?key=" + school_api + "&state=CA&schoolType=public&zip="+ zip + "&limit=100"
-    d3.xml(url, funtion(data) {
-      console.log(data)
+    var url = "https://cors-anywhere.herokuapp.com/https://api.greatschools.org/schools/nearby?key=" + school_api + "&state=CA&schoolType=public&zip="+ zip + "&limit=100"
+    d3.xml(url, function(data) {
+      xmlToJson(data)
+      schoolArray.push(data)
     });
     
   };
+
 
   
 
