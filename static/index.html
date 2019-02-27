@@ -31,7 +31,13 @@ Project2_repo/WebPage_APP/templates/index.html
       background-size: cover;
       color:white;
     }
+    #map {height: 500px ;}
   </style>
+  <link rel="stylesheet"
+  href=https://unpkg.com/leaflet@1.4.0/dist/leaflet.css
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
 </head>
 
 <body>
@@ -89,7 +95,7 @@ Project2_repo/WebPage_APP/templates/index.html
       <div class="col-md-6">
         <div class="well">
           <h5>Select the visualization:</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)">
+          <select id="selDataset">
             <option>Choose here</option>
             <option value = "clusteredHeatMap">
               Layered map of California
