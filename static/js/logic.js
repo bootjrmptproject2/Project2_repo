@@ -45,21 +45,20 @@ function createMarkers(response) {
     
   //   // Pull the "school" property off of response.schools
     var schools = response.features
-    console.log(schools)
+    // console.log(schools)
 
   //   // Initialize an array to hold school markers
     var schoolMarkers = [];
+    // var markers = L.markerClusterGroup();
   
   //   // Loop through the school array
     for (var i = 0; i < schools.length; i++) {
       var school = schools[i].properties;
       // console.log([school.lat, school.lon])
       schoolMarkers.push(
-        L.marker([school.lat, school.lon])
-        .bindPopup("<h3>" + school.name + "<h3><h3>Type: " + school.gsRating + "<h3>" + "<h3><h3>Parent Rating: " + school.parentRating));
+        .addLayer(L.marker([school.lat, school.lon])
+        .bindPopup("<h3>" + school.name + "<h3><h3>Great Schools Rating: " + school.gsRating + "<h3>" + "<h3><h3>Parent Rating: " + school.parentRating));
   //   // For each school, create a marker and bind a popup with the school's name
-      
-      // var schoolMarker = L.markerClusterGroup();
         
   
   //   // Add the marker to the schoolMarkers array
@@ -77,7 +76,7 @@ function createMarkers(response) {
     // console.log(this.selectedIndex.text);
     switch(changedSelection.value) {
         case "clusteredHeatMap":
-        d3.json("GeoData.json", createMarkers);
+        d3.json("GeoSchoolData.json", createMarkers);
         // console.log('yay');
 
         break;
