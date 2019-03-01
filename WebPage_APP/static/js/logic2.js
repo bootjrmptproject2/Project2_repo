@@ -21,25 +21,25 @@ L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/
     switch(changedSelection.value) {
         case "clusteredHeatMap":
         console.log("chose clusteredHeatMap");
-        d3.json("data/Geoschooldata.json", function(response) {
-            console.log(response);
-            // var schools = response.features;
-            // var markers = L.markerClusterGroup();
-            // console.log("went into the json function");
-            // for (var i = 0; i < schools.length; i++) {
-            //     var location = schools[i].geometry;
-            //     var school = schools[i].properties;
-            //     // console.log([school.lat, school.lon])
-            //     if (location) {
+        d3.json("data/Geoschooldata.json").then(function(response) {
+            // console.log(response);
+            var schools = response.features;
+            var markers = L.markerClusterGroup();
+            console.log("went into the json function");
+            for (var i = 0; i < schools.length; i++) {
+                var location = schools[i].geometry;
+                var school = schools[i].properties;
+                // console.log([school.lat, school.lon])
+                if (location) {
                 
-            //     markers.addLayer(L.marker([location.coordinates[1], location.coordinates[0]])
-            //            .bindPopup("<h3>" + school.name + "<h3><h3>Great Schools Rating: " + school.gsRating + "<h3>" + "<h3><h3>Parent Rating: " + school.parentRating));
+                markers.addLayer(L.marker([location.coordinates[1], location.coordinates[0]])
+                       .bindPopup("<h3>" + school.name + "<h3><h3>Great Schools Rating: " + school.gsRating + "<h3>" + "<h3><h3>Parent Rating: " + school.parentRating));
 
-            //     }
+                }
             
           
         
-            // }
+            }
              map.addLayer(markers);
         });
         // console.log('yay');
