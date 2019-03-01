@@ -38,21 +38,23 @@
                            .bindPopup("<h3>" + school.name + "<h3><h3>Great Schools Rating: " + school.gsRating + "<h3>" + "<h3><h3>Parent Rating: " + school.parentRating));
 
                     heatArray.push([location.coordinates[1], location.coordinates[0], parseInt(school.gsRating)/10]);
+                    // console.log(parseInt(school.gsRating)/10)
                 }
             
             }
             myMap.addLayer(markers);  
 
             var heatmap = L.heatLayer(heatArray, {
-                radius: 25,
-                max: 1.0,
-                blur: 20,              
+                radius: 15,
+                max: 3,
+                blur: 15,              
                 gradient: {
-                    0.1: 'red',
+                    0.0: 'darkred',
                     0.5: 'yellow',
-                    1.0: 'green'
+                    1: 'green'
                 },
-                minOpacity: 0.5
+                minOpacity: 0.35,
+                maxZoom: 10.0
             }).addTo(myMap);
 
             var baseLayers = {
