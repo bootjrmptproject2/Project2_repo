@@ -1,0 +1,17 @@
+.jumbotron{
+  margin-top: 20px;
+  background-image: url("../static/book-books-bookshelf-159621.jpg");
+  background-size: cover;
+  color:white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
