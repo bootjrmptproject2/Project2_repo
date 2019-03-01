@@ -1,0 +1,907 @@
+id,name,county,gsRating,parentRating,zip,price,district,income
+1,John F. Kennedy Middle School,San Mateo,5,3,94061,1584916.667,Redwood City Elementary School District,73031
+3,Central Elementary School,San Mateo,9,5,94002,1751333.333,Belmont-Redwood Shores Elementary School District,102348
+4,Cipriani Elementary School,San Mateo,9,5,94002,1751333.333,Belmont-Redwood Shores Elementary School District,102348
+5,Fox Elementary School,San Mateo,9,4,94002,1751333.333,Belmont-Redwood Shores Elementary School District,102348
+6,Nesbit Elementary School,San Mateo,7,4,94002,1751333.333,Belmont-Redwood Shores Elementary School District,102348
+7,Ralston Intermediate School,San Mateo,9,4,94002,1751333.333,Belmont-Redwood Shores Elementary School District,102348
+8,Carlmont High School,San Mateo,9,4,94002,1751333.333,Sequoia Union High School District,88025
+9,Brisbane Elementary School,San Mateo,7,4,94005,1130000,Brisbane Elementary School District,84247
+10,Lipman Middle School,San Mateo,7,4,94005,1130000,Brisbane Elementary School District,84247
+11,Burlingame Intermediate School,San Mateo,9,4,94010,2767750,Burlingame Elementary School District,82974
+12,Franklin Elementary School,San Mateo,9,4,94010,2767750,Burlingame Elementary School District,82974
+13,Lincoln Elementary School,San Mateo,9,4,94010,2767750,Burlingame Elementary School District,82974
+14,McKinley Elementary School,San Mateo,8,4,94010,2767750,Burlingame Elementary School District,82974
+15,Roosevelt Elementary School,San Mateo,7,4,94010,2767750,Burlingame Elementary School District,82974
+16,Washington Elementary School,San Mateo,8,4,94010,2767750,Burlingame Elementary School District,82974
+17,Crocker Middle School,San Mateo,9,4,94010,2767750,Hillsborough City Elementary School District,202292
+18,North Hillsborough School,San Mateo,9,3,94010,2767750,Hillsborough City Elementary School District,202292
+19,South Hillsborough School,San Mateo,9,5,94010,2767750,Hillsborough City Elementary School District,202292
+20,West Hillsborough School,San Mateo,9,4,94010,2767750,Hillsborough City Elementary School District,202292
+21,Burlingame High School,San Mateo,10,4,94010,2767750,San Mateo Union High School District,87301
+23,Bayshore Elementary School,San Mateo,4,4,94014,938916.6667,Bayshore Elementary School District,91875
+24,Panorama Elementary School,San Mateo,5,5,94014,938916.6667,Brisbane Elementary School District,84247
+31,Jefferson High School,San Mateo,5,4,94014,938916.6667,Jefferson Union High School District,75479
+41,Westmoor High School,San Mateo,8,4,94015,1004833.333,Jefferson Union High School District,75479
+42,Junipero Serra Elementary School,San Mateo,7,4,94015,1004833.333,South San Francisco Unified School District,75205
+43,Skyline Elementary School,San Mateo,6,4,94015,1004833.333,South San Francisco Unified School District,75205
+45,Manuel F. Cunha Intermediate School,San Mateo,5,4,94019,1213500,Cabrillo Unified School District,106250
+46,El Granada Elementary School,San Mateo,5,5,94019,1213500,Cabrillo Unified School District,106250
+47,Half Moon Bay High School,San Mateo,8,3,94019,1213500,Cabrillo Unified School District,106250
+48,Alvin S. Hatch Elementary School,San Mateo,4,4,94019,1213500,Cabrillo Unified School District,106250
+52,Almond Elementary School,Santa Clara,9,4,94022,3580416.667,Los Altos Elementary School District,138869
+53,Ardis G. Egan Junior High School,Santa Clara,9,4,94022,3580416.667,Los Altos Elementary School District,138869
+54,Santa Rita Elementary School,Santa Clara,8,5,94022,3580416.667,Los Altos Elementary School District,138869
+56,Gardner Bullis Elementary School,Santa Clara,9,5,94022,3580416.667,Los Altos Elementary School District,138869
+58,Georgina P. Blach Junior High School,Santa Clara,10,5,94024,3311750,Los Altos Elementary School District,138869
+59,Loyola Elementary School,Santa Clara,9,4,94024,3311750,Los Altos Elementary School District,138869
+60,Oak Avenue Elementary School,Santa Clara,9,5,94024,3311750,Los Altos Elementary School District,138869
+61,Covington Elementary School,Santa Clara,9,5,94024,3311750,Los Altos Elementary School District,138869
+62,La Entrada Middle School,San Mateo,9,4,94025,2301250,Las Lomitas Elementary School District,136950
+63,Hillview Middle School,San Mateo,8,4,94025,2301250,Menlo Park City Elementary School District,125442
+64,Oak Knoll Elementary School,San Mateo,9,5,94025,2301250,Menlo Park City Elementary School District,125442
+65,Belle Haven Elementary School,San Mateo,2,2,94025,2301250,Ravenswood City Elementary School District,48639
+66,Willow Oaks Elementary School,San Mateo,1,3,94025,2301250,Ravenswood City Elementary School District,48639
+67,Garfield Elementary School,San Mateo,2,3,94025,2301250,Redwood City Elementary School District,73031
+68,Menlo-Atherton High School,San Mateo,8,4,94025,2301250,Sequoia Union High School District,88025
+71,Encinal Elementary School,San Mateo,8,5,94027,6166666.667,Menlo Park City Elementary School District,125442
+72,Laurel Elementary School,San Mateo,8,4,94027,6166666.667,Menlo Park City Elementary School District,125442
+73,Selby Lane Elementary School,San Mateo,5,4,94027,6166666.667,Redwood City Elementary School District,73031
+74,Corte Madera School,San Mateo,9,4,94028,3360583.333,Portola Valley Elementary School District,177083
+80,Mills High School,San Mateo,9,4,94030,1674166.667,San Mateo Union High School District,87301
+81,Farallone View Elementary School,San Mateo,4,4,94037,1219250,Cabrillo Unified School District,106250
+82,Springer Elementary School,Santa Clara,9,5,94040,2089583.333,Los Altos Elementary School District,138869
+98,Oceana High School,San Mateo,7,4,94044,1061833.333,Jefferson Union High School District,75479
+99,Terra Nova High School,San Mateo,8,4,94044,1061833.333,Jefferson Union High School District,75479
+109,Adelante Spanish Immersion School,San Mateo,5,5,94061,1584916.667,Redwood City Elementary School District,73031
+110,Roy Cloud Elementary School,San Mateo,8,4,94061,1584916.667,Redwood City Elementary School District,73031
+111,Henry Ford Elementary School,San Mateo,5,4,94061,1584916.667,Redwood City Elementary School District,73031
+112,Hawes Elementary School,San Mateo,5,4,94061,1584916.667,Redwood City Elementary School District,73031
+113,Roosevelt Elementary School,San Mateo,6,5,94061,1584916.667,Redwood City Elementary School District,73031
+114,Kings Mountain Elementary School,San Mateo,8,5,94062,2147750,Cabrillo Unified School District,106250
+115,Clifford Elementary School,San Mateo,7,4,94062,2147750,Redwood City Elementary School District,73031
+116,John Gill Elementary School,San Mateo,6,4,94062,2147750,Redwood City Elementary School District,73031
+117,Mckinley Institute Of Technology,San Mateo,4,4,94062,2147750,Redwood City Elementary School District,73031
+118,North Star Academy,San Mateo,10,4,94062,2147750,Redwood City Elementary School District,73031
+119,Sequoia High School,San Mateo,6,4,94062,2147750,Sequoia Union High School District,88025
+120,Woodside High School,San Mateo,7,4,94062,2147750,Sequoia Union High School District,88025
+121,Woodside Elementary School,San Mateo,9,5,94062,2147750,Woodside Elementary School District,197250
+123,Fair Oaks Elementary School,San Mateo,3,5,94063,1214000,Redwood City Elementary School District,73031
+124,Hoover Elementary School,San Mateo,5,5,94063,1214000,Redwood City Elementary School District,73031
+125,Taft Elementary School,San Mateo,4,3,94063,1214000,Redwood City Elementary School District,73031
+127,Orion Alternative School,San Mateo,6,5,94063,1214000,Redwood City Elementary School District,73031
+128,Sandpiper Elementary School,San Mateo,9,4,94065,1419416.667,Belmont-Redwood Shores Elementary School District,102348
+131,Redwood Shores Elementary School,San Mateo,8,5,94065,1419416.667,Belmont-Redwood Shores Elementary School District,102348
+133,Allen (Decima M.) Elementary School,San Mateo,5,4,94066,1037250,San Bruno Park Elementary School District,74689
+134,Belle Air Elementary School,San Mateo,1,4,94066,1037250,San Bruno Park Elementary School District,74689
+135,El Crystal Elementary School,San Mateo,7,4,94066,1037250,San Bruno Park Elementary School District,74689
+136,John Muir Elementary School,San Mateo,8,5,94066,1037250,San Bruno Park Elementary School District,74689
+137,Parkside Intermediate School,San Mateo,5,3,94066,1037250,San Bruno Park Elementary School District,74689
+138,Rollingwood Elementary School,San Mateo,5,4,94066,1037250,San Bruno Park Elementary School District,74689
+139,Capuchino High School,San Mateo,7,4,94066,1037250,San Mateo Union High School District,87301
+140,Monte Verde Elementary School,San Mateo,9,4,94066,1037250,South San Francisco Unified School District,75205
+141,Portola Elementary School,San Mateo,6,5,94066,1037250,San Bruno Park Elementary School District,74689
+144,Central Middle School,San Mateo,10,4,94070,1865416.667,San Carlos Elementary School District,104457
+146,Alta Loma Middle School,San Mateo,6,3,94080,1024666.667,South San Francisco Unified School District,75205
+148,Buri Buri Elementary School,San Mateo,6,5,94080,1024666.667,South San Francisco Unified School District,75205
+149,El Camino High School,San Mateo,8,4,94080,1024666.667,South San Francisco Unified School District,75205
+151,Los Cerritos Elementary School,San Mateo,3,4,94080,1024666.667,South San Francisco Unified School District,75205
+152,Martin Elementary School,San Mateo,3,3,94080,1024666.667,South San Francisco Unified School District,75205
+153,Parkway Heights Middle School,San Mateo,4,3,94080,1024666.667,South San Francisco Unified School District,75205
+154,Ponderosa Elementary School,San Mateo,7,4,94080,1024666.667,South San Francisco Unified School District,75205
+155,South San Francisco High School,San Mateo,6,4,94080,1024666.667,South San Francisco Unified School District,75205
+156,Spruce Elementary School,San Mateo,3,3,94080,1024666.667,South San Francisco Unified School District,75205
+157,Sunshine Gardens Elementary School,San Mateo,3,4,94080,1024666.667,South San Francisco Unified School District,75205
+158,Westborough Middle School,San Mateo,8,4,94080,1024666.667,South San Francisco Unified School District,75205
+164,Braly Elementary School,Santa Clara,6,4,94086,1592166.667,Santa Clara Unified School District,84441
+165,Ponderosa Elementary School,Santa Clara,7,4,94086,1592166.667,Santa Clara Unified School District,84441
+172,Fremont High School,Santa Clara,7,4,94087,2059416.667,Fremont Union High School District,100428
+173,Marian A. Peterson Middle School,Santa Clara,7,4,94087,2059416.667,Santa Clara Unified School District,84441
+182,Tenderloin Community,San Francisco,3,4,94102,892833.3333,San Francisco Unified School District,70040
+184,Carmichael (Bessie)/Fec,San Francisco,3,4,94103,935416.6667,San Francisco Unified School District,70040
+185,Marshall Elementary School,San Francisco,3,4,94103,935416.6667,San Francisco Unified School District,70040
+187,King (Starr) Elementary School,San Francisco,5,4,94107,1184500,San Francisco Unified School District,70040
+188,Daniel Webster Elementary School,San Francisco,3,4,94107,1184500,San Francisco Unified School District,70040
+189,Lau (Gordon J.) Elementary School,San Francisco,7,5,94108,1061833.333,San Francisco Unified School District,70040
+190,Galileo High School,San Francisco,8,5,94109,1159916.667,San Francisco Unified School District,70040
+191,Redding Elementary School,San Francisco,6,4,94109,1159916.667,San Francisco Unified School District,70040
+192,Spring Valley Elementary School,San Francisco,5,5,94109,1159916.667,San Francisco Unified School District,70040
+193,Bryant Elementary School,San Francisco,3,4,94110,1485833.333,San Francisco Unified School District,70040
+194,Chavez (Cesar) Elementary School,San Francisco,1,3,94110,1485833.333,San Francisco Unified School District,70040
+195,Flynn (Leonard R.) Elementary School,San Francisco,2,4,94110,1485833.333,San Francisco Unified School District,70040
+196,Buena Vista/ Horace Mann K-8,San Francisco,3,4,94110,1485833.333,San Francisco Unified School District,70040
+197,Moscone (George R.) Elementary School,San Francisco,5,4,94110,1485833.333,San Francisco Unified School District,70040
+198,O'connell (John) High School,San Francisco,2,4,94110,1485833.333,San Francisco Unified School District,70040
+199,Revere (Paul) Elementary School,San Francisco,1,4,94110,1485833.333,San Francisco Unified School District,70040
+200,Serra (Junipero) Elementary School,San Francisco,5,5,94110,1485833.333,San Francisco Unified School District,70040
+202,S.F. International High School,San Francisco,2,4,94110,1485833.333,San Francisco Unified School District,70040
+204,Balboa High School,San Francisco,7,4,94112,1143333.333,San Francisco Unified School District,70040
+205,Cleveland Elementary School,San Francisco,2,4,94112,1143333.333,San Francisco Unified School District,70040
+206,Denman (James) Middle School,San Francisco,4,4,94112,1143333.333,San Francisco Unified School District,70040
+207,Guadalupe Elementary School,San Francisco,3,4,94112,1143333.333,San Francisco Unified School District,70040
+208,Longfellow Elementary School,San Francisco,4,4,94112,1143333.333,San Francisco Unified School District,70040
+209,Monroe Elementary School,San Francisco,5,4,94112,1143333.333,San Francisco Unified School District,70040
+210,San Francisco Community Alternative School,San Francisco,3,4,94112,1143333.333,San Francisco Unified School District,70040
+211,Sheridan Elementary School,San Francisco,3,4,94112,1143333.333,San Francisco Unified School District,70040
+212,Sunnyside Elementary School,San Francisco,6,4,94112,1143333.333,San Francisco Unified School District,70040
+213,Jordan (June) School For Equity,San Francisco,2,4,94112,1143333.333,San Francisco Unified School District,70040
+214,Alvarado Elementary School,San Francisco,6,4,94114,1774000,San Francisco Unified School District,70040
+215,Everett Middle School,San Francisco,4,3,94114,1774000,San Francisco Unified School District,70040
+216,Lick (James) Middle School,San Francisco,2,4,94114,1774000,San Francisco Unified School District,70040
+217,McKinley Elementary School,San Francisco,7,5,94114,1774000,San Francisco Unified School District,70040
+218,Milk (Harvey) Civil Rights Elementary School,San Francisco,2,4,94114,1774000,San Francisco Unified School District,70040
+219,Mission High School,San Francisco,2,4,94114,1774000,San Francisco Unified School District,70040
+220,Sanchez Elementary School,San Francisco,1,4,94114,1774000,San Francisco Unified School District,70040
+221,Cobb (William L.) Elementary School,San Francisco,2,5,94115,1505416.667,San Francisco Unified School District,70040
+222,Parks (Rosa) Elementary School,San Francisco,4,5,94115,1505416.667,San Francisco Unified School District,70040
+223,Wallenberg (Raoul) Traditional High School,San Francisco,8,3,94115,1505416.667,San Francisco Unified School District,70040
+224,San Francisco Public Montessori School,San Francisco,6,4,94115,1505416.667,San Francisco Unified School District,70040
+225,Hoover (Herbert) Middle School,San Francisco,6,4,94116,1461666.667,San Francisco Unified School District,70040
+226,Lincoln (Abraham) High School,San Francisco,8,5,94116,1461666.667,San Francisco Unified School District,70040
+227,Stevenson (Robert Louis) Elementary School,San Francisco,10,4,94116,1461666.667,San Francisco Unified School District,70040
+228,Sunset Elementary School,San Francisco,10,5,94116,1461666.667,San Francisco Unified School District,70040
+229,Ulloa Elementary School,San Francisco,10,3,94116,1461666.667,San Francisco Unified School District,70040
+231,Feinstein (Dianne) Elementary School,San Francisco,7,4,94116,1461666.667,San Francisco Unified School District,70040
+232,Grattan Elementary School,San Francisco,8,5,94117,1589166.667,San Francisco Unified School District,70040
+233,Muir (John) Elementary School,San Francisco,4,4,94117,1589166.667,San Francisco Unified School District,70040
+234,New Traditions Elementary School,San Francisco,9,4,94117,1589166.667,San Francisco Unified School District,70040
+236,Chinese Immersion School At Deavila,San Francisco,10,5,94117,1589166.667,San Francisco Unified School District,70040
+237,Mccoppin (Frank) Elementary School,San Francisco,7,4,94118,1910583.333,San Francisco Unified School District,70040
+238,Peabody (George) Elementary School,San Francisco,9,5,94118,1910583.333,San Francisco Unified School District,70040
+239,Roosevelt Middle School,San Francisco,9,4,94118,1910583.333,San Francisco Unified School District,70040
+240,Sutro Elementary School,San Francisco,8,5,94118,1910583.333,San Francisco Unified School District,70040
+241,Alamo Elementary School,San Francisco,8,5,94121,1646500,San Francisco Unified School District,70040
+242,Argonne Elementary School,San Francisco,7,4,94121,1646500,San Francisco Unified School District,70040
+243,Lafayette Elementary School,San Francisco,9,5,94121,1646500,San Francisco Unified School District,70040
+244,Presidio Middle School,San Francisco,8,4,94121,1646500,San Francisco Unified School District,70040
+245,Washington (George) High School,San Francisco,8,4,94121,1646500,San Francisco Unified School District,70040
+247,Giannini (A.P.) Middle School,San Francisco,9,4,94122,1452500,San Francisco Unified School District,70040
+248,Jefferson Elementary School,San Francisco,8,5,94122,1452500,San Francisco Unified School District,70040
+249,Key (Francis Scott) Elementary School,San Francisco,9,5,94122,1452500,San Francisco Unified School District,70040
+250,Lawton Alternative Elementary School,San Francisco,10,4,94122,1452500,San Francisco Unified School District,70040
+251,Yu (Alice Fong) Elementary School,San Francisco,10,4,94122,1452500,San Francisco Unified School District,70040
+252,Independence High School,San Francisco,3,5,94122,1452500,San Francisco Unified School District,70040
+254,Lilienthal (Claire) Elementary School,San Francisco,10,4,94123,2322750,San Francisco Unified School District,70040
+255,Marina Middle School,San Francisco,7,4,94123,2322750,San Francisco Unified School District,70040
+256,Sherman Elementary School,San Francisco,7,4,94123,2322750,San Francisco Unified School District,70040
+257,Carver (George Washington) Elementary School,San Francisco,2,3,94124,876666.6667,San Francisco Unified School District,70040
+258,Drew (Charles) College Preparatory Academy,San Francisco,1,3,94124,876666.6667,San Francisco Unified School District,70040
+259,Harte (Bret) Elementary School,San Francisco,1,3,94124,876666.6667,San Francisco Unified School District,70040
+260,Malcolm X Academy,San Francisco,3,5,94124,876666.6667,San Francisco Unified School District,70040
+261,Marshall (Thurgood) High School,San Francisco,3,4,94124,876666.6667,San Francisco Unified School District,70040
+262,Aptos Middle School,San Francisco,7,4,94127,1787583.333,San Francisco Unified School District,70040
+263,Miraloma Elementary School,San Francisco,8,5,94127,1787583.333,San Francisco Unified School District,70040
+264,Sloat (Commodore) Elementary School,San Francisco,8,4,94127,1787583.333,San Francisco Unified School District,70040
+265,West Portal Elementary School,San Francisco,9,5,94127,1787583.333,San Francisco Unified School District,70040
+266,"Asawa (Ruth) San Francisco School Of The Arts, A Public School.",San Francisco,9,4,94131,1642333.333,San Francisco Unified School District,70040
+267,Clarendon Alternative Elementary School,San Francisco,8,5,94131,1642333.333,San Francisco Unified School District,70040
+268,Fairmount Elementary School,San Francisco,2,4,94131,1642333.333,San Francisco Unified School District,70040
+269,Glen Park Elementary School,San Francisco,4,4,94131,1642333.333,San Francisco Unified School District,70040
+270,Mission Education Center,San Francisco,1,5,94131,1642333.333,San Francisco Unified School District,70040
+271,Rooftop Elementary School,San Francisco,6,4,94131,1642333.333,San Francisco Unified School District,70040
+272,Academy Of Arts And Sciences,San Francisco,4,2,94131,1642333.333,San Francisco Unified School District,70040
+273,Lakeshore Alternative Elementary School,San Francisco,4,5,94132,1277833.333,San Francisco Unified School District,70040
+274,Lowell High School,San Francisco,10,4,94132,1277833.333,San Francisco Unified School District,70040
+275,Ortega (Jose) Elementary School,San Francisco,7,5,94132,1277833.333,San Francisco Unified School District,70040
+276,Chin (John Yehall) Elementary School,San Francisco,9,4,94133,1557666.667,San Francisco Unified School District,70040
+277,Francisco Middle School,San Francisco,7,4,94133,1557666.667,San Francisco Unified School District,70040
+278,Garfield Elementary School,San Francisco,8,4,94133,1557666.667,San Francisco Unified School District,70040
+279,Parker (Jean) Elementary School,San Francisco,6,4,94133,1557666.667,San Francisco Unified School District,70040
+280,Yick Wo Elementary School,San Francisco,9,5,94133,1557666.667,San Francisco Unified School District,70040
+281,Burton (Phillip And Sala) Academic High School,San Francisco,6,4,94134,972416.6667,San Francisco Unified School District,70040
+282,El Dorado Elementary School,San Francisco,1,5,94134,972416.6667,San Francisco Unified School District,70040
+283,Hillcrest Elementary School,San Francisco,4,4,94134,972416.6667,San Francisco Unified School District,70040
+284,King Jr. (Martin Luther) Academic Middle School,San Francisco,4,3,94134,972416.6667,San Francisco Unified School District,70040
+285,Taylor (Edward R.) Elementary School,San Francisco,6,4,94134,972416.6667,San Francisco Unified School District,70040
+286,Visitacion Valley Elementary School,San Francisco,4,4,94134,972416.6667,San Francisco Unified School District,70040
+287,Visitacion Valley Middle School,San Francisco,2,4,94134,972416.6667,San Francisco Unified School District,70040
+288,Addison Elementary School,Santa Clara,7,5,94301,3515916.667,Palo Alto Unified School District,114178
+289,Walter Hays Elementary School,Santa Clara,9,5,94301,3515916.667,Palo Alto Unified School District,114178
+290,Palo Alto High School,Santa Clara,10,4,94301,3515916.667,Palo Alto Unified School District,114178
+292,Duveneck Elementary School,Santa Clara,8,5,94303,1407500,Palo Alto Unified School District,114178
+294,David Starr Jordan Middle School,Santa Clara,8,4,94303,1407500,Palo Alto Unified School District,114178
+295,Ohlone Elementary School,Santa Clara,9,5,94303,1407500,Palo Alto Unified School District,114178
+296,Palo Verde Elementary School,Santa Clara,9,5,94303,1407500,Palo Alto Unified School District,114178
+297,Ronald Mcnair Academy,San Mateo,2,4,94303,1407500,Ravenswood City Elementary School District,48639
+298,Cesar Chavez Elementary School,San Mateo,1,5,94303,1407500,Ravenswood City Elementary School District,48639
+299,Costano Elementary School,San Mateo,2,4,94303,1407500,Ravenswood City Elementary School District,48639
+300,Green Oaks Academy,San Mateo,3,5,94303,1407500,Ravenswood City Elementary School District,48639
+301,Brentwood Academy,San Mateo,2,4,94303,1407500,Ravenswood City Elementary School District,48639
+307,Barron Park Elementary School,Santa Clara,5,5,94306,2731083.333,Palo Alto Unified School District,114178
+308,Juana Briones Elementary School,Santa Clara,9,5,94306,2731083.333,Palo Alto Unified School District,114178
+309,El Carmelo Elementary School,Santa Clara,9,5,94306,2731083.333,Palo Alto Unified School District,114178
+310,Fairmeadow Elementary School,Santa Clara,9,5,94306,2731083.333,Palo Alto Unified School District,114178
+311,Henry M. Gunn High School,Santa Clara,10,4,94306,2731083.333,Palo Alto Unified School District,114178
+312,Herbert Hoover Elementary School,Santa Clara,9,4,94306,2731083.333,Palo Alto Unified School District,114178
+313,Jane Lathrop Stanford Middle School,Santa Clara,9,5,94306,2731083.333,Palo Alto Unified School District,114178
+314,Terman Middle School,Santa Clara,8,4,94306,2731083.333,Palo Alto Unified School District,114178
+318,San Mateo High School,San Mateo,7,4,94401,1118083.333,San Mateo Union High School District,87301
+326,Aragon High School,San Mateo,9,4,94402,1981916.667,San Mateo Union High School District,87301
+335,Hillsdale High School,San Mateo,8,4,94403,1539083.333,San Mateo Union High School District,87301
+358,Discovery Bay Elementary School,Contra Costa,7,4,94505,597083.3333,Byron Union Elementary School District,96674
+359,Timber Point Elementary School,Contra Costa,6,4,94505,597083.3333,Byron Union Elementary School District,96674
+360,Sycamore Valley Elementary School,Contra Costa,10,4,94506,1337416.667,San Ramon Valley Unified School District,132355
+361,Tassajara Hills Elementary School,Contra Costa,10,4,94506,1337416.667,San Ramon Valley Unified School District,132355
+362,Diablo Vista Middle School,Contra Costa,9,4,94506,1337416.667,San Ramon Valley Unified School District,132355
+363,Creekside Elementary School,Contra Costa,9,5,94506,1337416.667,San Ramon Valley Unified School District,132355
+364,Alamo Elementary School,Contra Costa,9,4,94507,1698250,San Ramon Valley Unified School District,132355
+365,Rancho Romero Elementary School,Contra Costa,9,4,94507,1698250,San Ramon Valley Unified School District,132355
+366,Stone Valley Middle School,Contra Costa,10,3,94507,1698250,San Ramon Valley Unified School District,132355
+368,Antioch High School,Contra Costa,3,3,94509,401416.6667,Antioch Unified School District,69167
+369,Antioch Middle School,Contra Costa,1,3,94509,401416.6667,Antioch Unified School District,69167
+370,Belshaw Elementary School,Contra Costa,2,4,94509,401416.6667,Antioch Unified School District,69167
+371,Fremont Elementary School,Contra Costa,1,4,94509,401416.6667,Antioch Unified School District,69167
+372,Kimball Elementary School,Contra Costa,2,3,94509,401416.6667,Antioch Unified School District,69167
+374,Marsh Elementary School,Contra Costa,1,3,94509,401416.6667,Antioch Unified School District,69167
+375,Mission Elementary School,Contra Costa,2,4,94509,401416.6667,Antioch Unified School District,69167
+376,Muir (John) Elementary School,Contra Costa,3,4,94509,401416.6667,Antioch Unified School District,69167
+377,Park Middle School,Contra Costa,3,4,94509,401416.6667,Antioch Unified School District,69167
+378,Sutter Elementary School,Contra Costa,3,5,94509,401416.6667,Antioch Unified School District,69167
+379,Turner Elementary School,Contra Costa,1,3,94509,401416.6667,Antioch Unified School District,69167
+380,Prospects High (Alternative) School,Contra Costa,2,5,94509,401416.6667,Antioch Unified School District,69167
+385,Brentwood Elementary School,Contra Costa,6,5,94513,597666.6667,Brentwood Union Elementary School District,89169
+386,William B. Bristow Middle School,Contra Costa,7,3,94513,597666.6667,Brentwood Union Elementary School District,89169
+387,Garin Elementary School,Contra Costa,7,4,94513,597666.6667,Brentwood Union Elementary School District,89169
+388,Edna Hill Middle School,Contra Costa,6,4,94513,597666.6667,Brentwood Union Elementary School District,89169
+389,Ron Nunn Elementary School,Contra Costa,7,4,94513,597666.6667,Brentwood Union Elementary School District,89169
+391,Liberty High School,Contra Costa,7,4,94513,597666.6667,Liberty Union High School District,83673
+392,Loma Vista Elementary School,Contra Costa,7,4,94513,597666.6667,Brentwood Union Elementary School District,89169
+393,Independence High School,Contra Costa,2,5,94513,597666.6667,Liberty Union High School District,83673
+394,R. Paul Krey Elementary School,Contra Costa,7,4,94513,597666.6667,Brentwood Union Elementary School District,89169
+395,Heritage High School,Contra Costa,9,3,94513,597666.6667,Liberty Union High School District,83673
+396,Marsh Creek Elementary School,Contra Costa,6,3,94513,597666.6667,Brentwood Union Elementary School District,89169
+397,Pioneer Elementary School,Contra Costa,6,4,94513,597666.6667,Brentwood Union Elementary School District,89169
+400,Adams (J. Douglas) Middle School,Contra Costa,8,4,94513,597666.6667,Brentwood Union Elementary School District,89169
+449,Carquinez Middle School,Contra Costa,3,4,94525,535666.6667,John Swett Unified School District,68136
+450,John Swett High School,Contra Costa,6,4,94525,535666.6667,John Swett Unified School District,68136
+452,John Baldwin Elementary School,Contra Costa,9,4,94526,1224166.667,San Ramon Valley Unified School District,132355
+454,Green Valley Elementary School,Contra Costa,9,4,94526,1224166.667,San Ramon Valley Unified School District,132355
+455,Greenbrook Elementary School,Contra Costa,9,4,94526,1224166.667,San Ramon Valley Unified School District,132355
+456,Los Cerros Middle School,Contra Costa,10,3,94526,1224166.667,San Ramon Valley Unified School District,132355
+457,Montair Elementary School,Contra Costa,10,4,94526,1224166.667,San Ramon Valley Unified School District,132355
+458,Monte Vista High School,Contra Costa,10,4,94526,1224166.667,San Ramon Valley Unified School District,132355
+459,San Ramon Valley High School,Contra Costa,10,4,94526,1224166.667,San Ramon Valley Unified School District,132355
+460,Vista Grande Elementary School,Contra Costa,8,4,94526,1224166.667,San Ramon Valley Unified School District,132355
+461,Charlotte Wood Middle School,Contra Costa,9,5,94526,1224166.667,San Ramon Valley Unified School District,132355
+462,El Cerrito Senior High School,Contra Costa,5,4,94530,942166.6667,West Contra Costa Unified School District,63932
+463,Fairmont Elementary School,Contra Costa,4,4,94530,942166.6667,West Contra Costa Unified School District,63932
+464,Harding Elementary School,Contra Costa,5,4,94530,942166.6667,West Contra Costa Unified School District,63932
+465,Madera Elementary School,Contra Costa,7,4,94530,942166.6667,West Contra Costa Unified School District,63932
+466,Fred T. Korematsu Middle School,Contra Costa,5,4,94530,942166.6667,West Contra Costa Unified School District,63932
+467,Black Diamond Middle School,Contra Costa,1,3,94531,494166.6667,Antioch Unified School District,69167
+468,Deer Valley High School,Contra Costa,5,3,94531,494166.6667,Antioch Unified School District,69167
+469,Grant Elementary School,Contra Costa,2,4,94531,494166.6667,Antioch Unified School District,69167
+470,Jack London Elementary School,Contra Costa,3,4,94531,494166.6667,Antioch Unified School District,69167
+471,Diablo Vista Elementary School,Contra Costa,4,4,94531,494166.6667,Antioch Unified School District,69167
+472,Lone Tree Elementary School,Contra Costa,3,4,94531,494166.6667,Antioch Unified School District,69167
+473,Dallas Ranch Middle School,Contra Costa,3,4,94531,494166.6667,Antioch Unified School District,69167
+474,Carmen Dragon Elementary School,Contra Costa,3,4,94531,494166.6667,Antioch Unified School District,69167
+475,Dozier-Libbey Medical High School,Contra Costa,7,4,94531,494166.6667,Antioch Unified School District,69167
+476,American High School,Alameda,10,4,94536,1035166.667,Fremont Unified School District,95022
+477,Brookvale Elementary School,Alameda,7,4,94536,1035166.667,Fremont Unified School District,95022
+478,Cabrillo Elementary School,Alameda,5,3,94536,1035166.667,Fremont Unified School District,95022
+479,Centerville Junior High,Alameda,7,4,94536,1035166.667,Fremont Unified School District,95022
+480,Glenmoor Elementary School,Alameda,7,4,94536,1035166.667,Fremont Unified School District,95022
+481,Tom Maloney Elementary School,Alameda,7,4,94536,1035166.667,Fremont Unified School District,95022
+482,John G. Mattos Elementary School,Alameda,6,4,94536,1035166.667,Fremont Unified School District,95022
+483,Niles Elementary School,Alameda,8,4,94536,1035166.667,Fremont Unified School District,95022
+484,Oliveira Elementary School,Alameda,7,4,94536,1035166.667,Fremont Unified School District,95022
+485,Parkmont Elementary School,Alameda,9,4,94536,1035166.667,Fremont Unified School District,95022
+486,Patterson Elementary School,Alameda,6,3,94536,1035166.667,Fremont Unified School District,95022
+487,Thornton Junior High School,Alameda,8,3,94536,1035166.667,Fremont Unified School District,95022
+488,Vallejo Mill Elementary School,Alameda,6,4,94536,1035166.667,Fremont Unified School District,95022
+489,Washington High School,Alameda,8,4,94536,1035166.667,Fremont Unified School District,95022
+491,Joseph Azevada Elementary School,Alameda,8,4,94538,969750,Fremont Unified School District,95022
+492,John Blacow Elementary School,Alameda,5,3,94538,969750,Fremont Unified School District,95022
+493,Brier Elementary School,Alameda,6,4,94538,969750,Fremont Unified School District,95022
+494,J. Haley Durham Elementary School,Alameda,7,4,94538,969750,Fremont Unified School District,95022
+495,Harvey Green Elementary School,Alameda,9,4,94538,969750,Fremont Unified School District,95022
+496,E. M. Grimmer Elementary School,Alameda,7,4,94538,969750,Fremont Unified School District,95022
+497,O. N. Hirsch Elementary School,Alameda,8,4,94538,969750,Fremont Unified School District,95022
+498,John M. Horner Junior High School,Alameda,8,4,94538,969750,Fremont Unified School District,95022
+499,Irvington High School,Alameda,9,5,94538,969750,Fremont Unified School District,95022
+500,John F. Kennedy High School,Alameda,7,3,94538,969750,Fremont Unified School District,95022
+501,Steven Millard Elementary School,Alameda,8,4,94538,969750,Fremont Unified School District,95022
+503,G. M. Walters Junior High School,Alameda,6,4,94538,969750,Fremont Unified School District,95022
+504,Vista Alternative School,Alameda,2,5,94538,969750,Fremont Unified School District,95022
+509,Joshua Chadbourne Elementary School,Alameda,9,4,94539,1504500,Fremont Unified School District,95022
+510,John Gomes Elementary School,Alameda,9,4,94539,1504500,Fremont Unified School District,95022
+513,Mission San Jose Elementary School,Alameda,9,4,94539,1504500,Fremont Unified School District,95022
+514,Mission San Jose High School,Alameda,10,4,94539,1504500,Fremont Unified School District,95022
+515,Mission Valley Elementary School,Alameda,7,4,94539,1504500,Fremont Unified School District,95022
+516,Warm Springs Elementary School,Alameda,9,4,94539,1504500,Fremont Unified School District,95022
+517,Fred E. Weibel Elementary School,Alameda,7,4,94539,1504500,Fremont Unified School District,95022
+526,Burbank Elementary School,Alameda,5,4,94541,624833.3333,Hayward Unified School District,60469
+527,Cherryland Elementary School,Alameda,2,3,94541,624833.3333,Hayward Unified School District,60469
+528,East Avenue Elementary School,Alameda,3,4,94541,624833.3333,Hayward Unified School District,60469
+529,Fairview Elementary School,Alameda,3,3,94541,624833.3333,Hayward Unified School District,60469
+530,Hayward High School,Alameda,4,3,94541,624833.3333,Hayward Unified School District,60469
+531,Faith Ringgold School of Arts and Science,Alameda,3,4,94541,624833.3333,Hayward Unified School District,60469
+532,Longwood Elementary School,Alameda,2,4,94541,624833.3333,Hayward Unified School District,60469
+534,Colonial Acres Elementary School,Alameda,1,4,94541,624833.3333,San Lorenzo Unified School District,55708
+535,Lorenzo Manor Elementary School,Alameda,3,4,94541,624833.3333,San Lorenzo Unified School District,55708
+536,East Bay Arts High School,Alameda,4,4,94541,624833.3333,San Lorenzo Unified School District,55708
+537,Stonebrae Elementary School,Alameda,4,4,94542,955166.6667,Hayward Unified School District,60469
+538,Bowman Elementary School,Alameda,2,4,94544,654250,Hayward Unified School District,60469
+539,Cesar Chavez Middle School,Alameda,2,4,94544,654250,Hayward Unified School District,60469
+540,Eldridge Elementary School,Alameda,5,4,94544,654250,Hayward Unified School District,60469
+541,Glassbrook Elementary School,Alameda,2,3,94544,654250,Hayward Unified School District,60469
+542,Harder Elementary School,Alameda,2,3,94544,654250,Hayward Unified School District,60469
+543,Schafer Park Elementary School,Alameda,5,3,94544,654250,Hayward Unified School District,60469
+544,Tennyson High School,Alameda,2,3,94544,654250,Hayward Unified School District,60469
+545,Treeview Elementary,Alameda,3,4,94544,654250,Hayward Unified School District,60469
+546,Hillview Crest Elementary School,Alameda,3,3,94544,654250,New Haven Unified School District,85751
+550,Lorin A. Eden Elementary School,Alameda,3,4,94545,699250,Hayward Unified School District,60469
+551,Eden Gardens Elementary School,Alameda,4,4,94545,699250,Hayward Unified School District,60469
+552,"Martin Luther King, Jr. Middle School",Alameda,6,4,94545,699250,Hayward Unified School District,60469
+553,Mount Eden High School,Alameda,6,3,94545,699250,Hayward Unified School District,60469
+554,Anthony W. Ochoa Middle School,Alameda,5,4,94545,699250,Hayward Unified School District,60469
+555,Palma Ceia Elementary School,Alameda,6,3,94545,699250,Hayward Unified School District,60469
+556,Southgate Elementary School,Alameda,7,4,94545,699250,Hayward Unified School District,60469
+558,Castro Valley Elementary School,Alameda,6,4,94546,781083.3333,Castro Valley Unified School District,87016
+559,Castro Valley High School,Alameda,9,4,94546,781083.3333,Castro Valley Unified School District,87016
+560,Chabot Elementary School,Alameda,8,5,94546,781083.3333,Castro Valley Unified School District,87016
+561,Creekside Middle School,Alameda,7,5,94546,781083.3333,Castro Valley Unified School District,87016
+562,Marshall Elementary School,Alameda,8,5,94546,781083.3333,Castro Valley Unified School District,87016
+563,Proctor Elementary School,Alameda,9,4,94546,781083.3333,Castro Valley Unified School District,87016
+565,Stanton Elementary School,Alameda,6,4,94546,781083.3333,Castro Valley Unified School District,87016
+566,Vannoy Elementary School,Alameda,7,5,94546,781083.3333,Castro Valley Unified School District,87016
+567,Strobridge Elementary School,Alameda,2,3,94546,781083.3333,Hayward Unified School District,60469
+571,Hanna Ranch Elementary School,Contra Costa,5,4,94547,591750,West Contra Costa Unified School District,63932
+572,Lupine Hills Elementary School,Contra Costa,3,3,94547,591750,West Contra Costa Unified School District,63932
+573,Ohlone Elementary School,Contra Costa,6,3,94547,591750,West Contra Costa Unified School District,63932
+574,Hercules High School,Contra Costa,5,3,94547,591750,West Contra Costa Unified School District,63932
+575,Hercules Middle School,Contra Costa,5,3,94547,591750,West Contra Costa Unified School District,63932
+577,Acalanes High School,Contra Costa,10,4,94549,1404166.667,Acalanes Union High School District,96950
+578,Burton Valley Elementary School,Contra Costa,10,4,94549,1404166.667,Lafayette Elementary School District,125896
+579,Happy Valley Elementary School,Contra Costa,10,4,94549,1404166.667,Lafayette Elementary School District,125896
+580,Lafayette Elementary School,Contra Costa,10,5,94549,1404166.667,Lafayette Elementary School District,125896
+581,Springhill Elementary School,Contra Costa,9,4,94549,1404166.667,Lafayette Elementary School District,125896
+582,M. H. Stanley Middle School,Contra Costa,10,4,94549,1404166.667,Lafayette Elementary School District,125896
+583,Arroyo Seco Elementary School,Alameda,6,4,94550,843500,Livermore Valley Joint Unified School District,95968
+584,East Avenue Middle School,Alameda,6,4,94550,843500,Livermore Valley Joint Unified School District,95968
+585,Granada High School,Alameda,8,4,94550,843500,Livermore Valley Joint Unified School District,95968
+586,Jackson Avenue Elementary School,Alameda,6,4,94550,843500,Livermore Valley Joint Unified School District,95968
+587,William Mendenhall Middle School,Alameda,8,4,94550,843500,Livermore Valley Joint Unified School District,95968
+588,Joe Michell K-8 School,Alameda,6,4,94550,843500,Livermore Valley Joint Unified School District,95968
+589,Emma C. Smith Elementary School,Alameda,8,4,94550,843500,Livermore Valley Joint Unified School District,95968
+592,Andrew N. Christensen Middle School,Alameda,7,4,94551,735500,Livermore Valley Joint Unified School District,95968
+593,Leo R. Croce Elementary School,Alameda,4,4,94551,735500,Livermore Valley Joint Unified School District,95968
+594,Marylin Avenue Elementary School,Alameda,4,4,94551,735500,Livermore Valley Joint Unified School District,95968
+595,Junction Avenue K-8 School,Alameda,4,5,94551,735500,Livermore Valley Joint Unified School District,95968
+596,Rancho Las Positas Elementary School,Alameda,6,5,94551,735500,Livermore Valley Joint Unified School District,95968
+597,Altamont Creek Elementary School,Alameda,7,4,94551,735500,Livermore Valley Joint Unified School District,95968
+599,Canyon Middle School,Alameda,7,4,94552,1058750,Castro Valley Unified School District,87016
+600,Independent Elementary School,Alameda,8,5,94552,1058750,Castro Valley Unified School District,87016
+601,Jensen Ranch Elementary School,Alameda,9,5,94552,1058750,Castro Valley Unified School District,87016
+602,Palomares Elementary School,Alameda,7,5,94552,1058750,Castro Valley Unified School District,87016
+603,Alhambra Senior High School,Contra Costa,7,3,94553,597333.3333,Martinez Unified School District,70952
+604,John Swett Elementary School,Contra Costa,6,4,94553,597333.3333,Martinez Unified School District,70952
+605,Las Juntas Elementary School,Contra Costa,3,5,94553,597333.3333,Martinez Unified School District,70952
+607,Martinez Junior High School,Contra Costa,6,4,94553,597333.3333,Martinez Unified School District,70952
+608,Morello Park Elementary School,Contra Costa,9,5,94553,597333.3333,Martinez Unified School District,70952
+609,John Muir Elementary School,Contra Costa,7,4,94553,597333.3333,Martinez Unified School District,70952
+613,Ardenwood Elementary School,Alameda,8,4,94555,1142750,Fremont Unified School District,95022
+614,Forest Park Elementary School,Alameda,9,4,94555,1142750,Fremont Unified School District,95022
+615,Warwick Elementary School,Alameda,8,4,94555,1142750,Fremont Unified School District,95022
+616,Campolindo High School,Contra Costa,10,4,94556,1173083.333,Acalanes Union High School District,96950
+617,Camino Pablo Elementary School,Contra Costa,9,4,94556,1173083.333,Moraga Elementary School District,126304
+618,Los Perales Elementary School,Contra Costa,9,4,94556,1173083.333,Moraga Elementary School District,126304
+619,Joaquin Moraga Intermediate School,Contra Costa,10,4,94556,1173083.333,Moraga Elementary School District,126304
+620,Donald L. Rheem Elementary School,Contra Costa,9,4,94556,1173083.333,Moraga Elementary School District,126304
+623,James A. Graham Elementary School,Alameda,3,3,94560,928166.6667,Newark Unified School District,82782
+624,John F. Kennedy Elementary School,Alameda,6,4,94560,928166.6667,Newark Unified School District,82782
+625,Lincoln Elementary School,Alameda,8,4,94560,928166.6667,Newark Unified School District,82782
+626,Birch Grove Intermediate,Alameda,6,3,94560,928166.6667,Newark Unified School District,82782
+627,E. L. Musick Elementary School,Alameda,4,3,94560,928166.6667,Newark Unified School District,82782
+628,Newark Memorial High School,Alameda,6,3,94560,928166.6667,Newark Unified School District,82782
+629,Newark Junior High School,Alameda,4,4,94560,928166.6667,Newark Unified School District,82782
+630,August Schilling Elementary School,Alameda,3,4,94560,928166.6667,Newark Unified School District,82782
+631,H. A. Snow Elementary School,Alameda,4,4,94560,928166.6667,Newark Unified School District,82782
+632,Crossroads High (Alternative) School,Alameda,1,5,94560,928166.6667,Newark Unified School District,82782
+634,Freedom High School,Contra Costa,5,4,94561,479416.6667,Liberty Union High School District,83673
+635,Gehringer Elementary School,Contra Costa,4,4,94561,479416.6667,Oakley Union Elementary School District,71563
+636,Laurel Elementary School,Contra Costa,3,4,94561,479416.6667,Oakley Union Elementary School District,71563
+637,Oakley Elementary School,Contra Costa,1,5,94561,479416.6667,Oakley Union Elementary School District,71563
+638,O'hara Park Middle School,Contra Costa,3,4,94561,479416.6667,Oakley Union Elementary School District,71563
+639,Vintage Parkway Elementary School,Contra Costa,5,4,94561,479416.6667,Oakley Union Elementary School District,71563
+640,Delta Vista Middle School,Contra Costa,4,4,94561,479416.6667,Oakley Union Elementary School District,71563
+641,Iron House Elementary School,Contra Costa,3,4,94561,479416.6667,Oakley Union Elementary School District,71563
+642,Orchard Park School,Contra Costa,5,4,94561,479416.6667,Antioch Unified School District,69167
+644,Miramonte High School,Contra Costa,9,4,94563,1473000,Acalanes Union High School District,96950
+645,Del Rey Elementary School,Contra Costa,9,5,94563,1473000,Orinda Union Elementary School District,161556
+646,Glorietta Elementary School,Contra Costa,9,5,94563,1473000,Orinda Union Elementary School District,161556
+647,Orinda Intermediate School,Contra Costa,10,4,94563,1473000,Orinda Union Elementary School District,161556
+648,Sleepy Hollow Elementary School,Contra Costa,9,5,94563,1473000,Orinda Union Elementary School District,161556
+649,Wagner Ranch Elementary School,Contra Costa,9,4,94563,1473000,Orinda Union Elementary School District,161556
+650,Collins Elementary School,Contra Costa,4,3,94564,575833.3333,West Contra Costa Unified School District,63932
+651,Ellerhorst Elementary School,Contra Costa,4,4,94564,575833.3333,West Contra Costa Unified School District,63932
+652,Pinole Middle School,Contra Costa,2,3,94564,575833.3333,West Contra Costa Unified School District,63932
+653,Pinole Valley High School,Contra Costa,4,3,94564,575833.3333,West Contra Costa Unified School District,63932
+654,Shannon Elementary School,Contra Costa,6,4,94564,575833.3333,West Contra Costa Unified School District,63932
+655,Stewart Elementary School,Contra Costa,3,4,94564,575833.3333,West Contra Costa Unified School District,63932
+661,Rancho Medanos Junior High School,Contra Costa,3,3,94565,445666.6667,Pittsburg Unified School District,53840
+662,Foothill Elementary School,Contra Costa,4,3,94565,445666.6667,Pittsburg Unified School District,53840
+663,Heights Elementary School,Contra Costa,3,3,94565,445666.6667,Pittsburg Unified School District,53840
+664,Highlands Elementary School,Contra Costa,3,3,94565,445666.6667,Pittsburg Unified School District,53840
+665,Hillview Junior High School,Contra Costa,3,3,94565,445666.6667,Pittsburg Unified School District,53840
+666,Los Medanos Elementary School,Contra Costa,6,4,94565,445666.6667,Pittsburg Unified School District,53840
+667,Parkside Elementary School,Contra Costa,3,5,94565,445666.6667,Pittsburg Unified School District,53840
+668,Pittsburg Senior High School,Contra Costa,4,3,94565,445666.6667,Pittsburg Unified School District,53840
+670,Stoneman Elementary School,Contra Costa,3,4,94565,445666.6667,Pittsburg Unified School District,53840
+671,Willow Cove Elementary School,Contra Costa,2,4,94565,445666.6667,Pittsburg Unified School District,53840
+674,Marina Vista Elementary School,Contra Costa,4,3,94565,445666.6667,Pittsburg Unified School District,53840
+676,Alisal Elementary School,Alameda,7,4,94566,1239166.667,Pleasanton Unified School District,113557
+677,Amador Valley High School,Alameda,9,4,94566,1239166.667,Pleasanton Unified School District,113557
+678,Harvest Park Middle School,Alameda,9,5,94566,1239166.667,Pleasanton Unified School District,113557
+679,Pleasanton Middle School,Alameda,8,4,94566,1239166.667,Pleasanton Unified School District,113557
+680,Valley View Elementary School,Alameda,8,4,94566,1239166.667,Pleasanton Unified School District,113557
+682,Vintage Hills Elementary School,Alameda,10,4,94566,1239166.667,Pleasanton Unified School District,113557
+683,Walnut Grove Elementary School,Alameda,9,5,94566,1239166.667,Pleasanton Unified School District,113557
+684,Phoebe Apperson Hearst Elementary School,Alameda,10,5,94566,1239166.667,Pleasanton Unified School District,113557
+686,Dublin Elementary School,Alameda,8,4,94568,891333.3333,Dublin Unified School District,108842
+687,Dublin High School,Alameda,10,4,94568,891333.3333,Dublin Unified School District,108842
+688,Frederiksen Elementary School,Alameda,7,4,94568,891333.3333,Dublin Unified School District,108842
+689,Murray Elementary School,Alameda,7,4,94568,891333.3333,Dublin Unified School District,108842
+691,Wells Middle School,Alameda,6,4,94568,891333.3333,Dublin Unified School District,108842
+692,James Dougherty Elementary School,Alameda,9,4,94568,891333.3333,Dublin Unified School District,108842
+694,Eleanor Murray Fallon School,Alameda,9,4,94568,891333.3333,Dublin Unified School District,108842
+695,John Green Elementary School,Alameda,10,5,94568,891333.3333,Dublin Unified School District,108842
+696,Harold William Kolb,Alameda,9,4,94568,891333.3333,Dublin Unified School District,108842
+699,Rodeo Hills Elementary School,Contra Costa,3,3,94572,524916.6667,John Swett Unified School District,68136
+700,Bancroft Middle School,Alameda,2,3,94577,694166.6667,San Leandro Unified School District,62585
+701,Garfield Elementary School,Alameda,3,5,94577,694166.6667,San Leandro Unified School District,62585
+702,McKinley Elementary School,Alameda,2,4,94577,694166.6667,San Leandro Unified School District,62585
+703,John Muir Middle School,Alameda,3,4,94577,694166.6667,San Leandro Unified School District,62585
+704,Roosevelt Elementary School,Alameda,6,4,94577,694166.6667,San Leandro Unified School District,62585
+705,San Leandro High School,Alameda,4,3,94577,694166.6667,San Leandro Unified School District,62585
+706,Washington Elementary School,Alameda,4,4,94577,694166.6667,San Leandro Unified School District,62585
+707,Wilson Elementary School,Alameda,5,3,94577,694166.6667,San Leandro Unified School District,62585
+709,Jefferson Elementary School,Alameda,3,4,94578,642500,San Leandro Unified School District,62585
+710,Monroe Elementary School,Alameda,4,3,94578,642500,San Leandro Unified School District,62585
+711,Hillside Elementary School,Alameda,2,4,94578,642500,San Lorenzo Unified School District,55708
+713,Madison Elementary School,Alameda,8,4,94579,681083.3333,San Leandro Unified School District,62585
+714,Corvallis Elementary School,Alameda,3,5,94579,681083.3333,San Lorenzo Unified School District,55708
+715,Dayton Elementary School,Alameda,4,4,94579,681083.3333,San Lorenzo Unified School District,55708
+716,Washington Manor Middle School,Alameda,4,3,94579,681083.3333,San Lorenzo Unified School District,55708
+717,Arroyo High School,Alameda,7,4,94580,665333.3333,San Lorenzo Unified School District,55708
+718,Bay Elementary School,Alameda,4,3,94580,665333.3333,San Lorenzo Unified School District,55708
+719,Bohannon Middle School,Alameda,3,3,94580,665333.3333,San Lorenzo Unified School District,55708
+720,Del Rey Elementary School,Alameda,2,4,94580,665333.3333,San Lorenzo Unified School District,55708
+721,Edendale Middle School,Alameda,1,4,94580,665333.3333,San Lorenzo Unified School District,55708
+722,Grant Elementary School,Alameda,3,5,94580,665333.3333,San Lorenzo Unified School District,55708
+723,Hesperian Elementary School,Alameda,2,4,94580,665333.3333,San Lorenzo Unified School District,55708
+724,San Lorenzo High School,Alameda,3,4,94580,665333.3333,San Lorenzo Unified School District,55708
+726,Golden View Elementary School,Contra Costa,10,4,94582,1147666.667,San Ramon Valley Unified School District,132355
+727,Venture (Alternative) School,Contra Costa,6,5,94582,1147666.667,San Ramon Valley Unified School District,132355
+728,Coyote Creek Elementary School,Contra Costa,8,4,94582,1147666.667,San Ramon Valley Unified School District,132355
+729,Hidden Hills Elementary School,Contra Costa,9,5,94582,1147666.667,San Ramon Valley Unified School District,132355
+730,Windemere Ranch Middle School,Contra Costa,9,4,94582,1147666.667,San Ramon Valley Unified School District,132355
+731,Quail Run Elementary School,Contra Costa,8,5,94582,1147666.667,San Ramon Valley Unified School District,132355
+732,Dougherty Valley High School,Contra Costa,10,4,94582,1147666.667,San Ramon Valley Unified School District,132355
+733,Live Oak Elementary School,Contra Costa,9,4,94582,1147666.667,San Ramon Valley Unified School District,132355
+734,Gale Ranch Middle School,Contra Costa,8,4,94582,1147666.667,San Ramon Valley Unified School District,132355
+736,Neil A. Armstrong Elementary School,Contra Costa,9,4,94583,940750,San Ramon Valley Unified School District,132355
+737,Bollinger Canyon Elementary School,Contra Costa,9,4,94583,940750,San Ramon Valley Unified School District,132355
+738,California High School,Contra Costa,10,4,94583,940750,San Ramon Valley Unified School District,132355
+739,Country Club Elementary School,Contra Costa,9,4,94583,940750,San Ramon Valley Unified School District,132355
+740,Walt Disney Elementary School,Contra Costa,8,5,94583,940750,San Ramon Valley Unified School District,132355
+741,Iron Horse Middle School,Contra Costa,9,5,94583,940750,San Ramon Valley Unified School District,132355
+742,Montevideo Elementary School,Contra Costa,8,4,94583,940750,San Ramon Valley Unified School District,132355
+743,Pine Valley Middle School,Contra Costa,9,3,94583,940750,San Ramon Valley Unified School District,132355
+744,Twin Creeks Elementary School,Contra Costa,8,4,94583,940750,San Ramon Valley Unified School District,132355
+746,Alvarado Elementary School,Alameda,6,3,94587,900250,New Haven Unified School District,85751
+747,Alvarado Middle School,Alameda,6,4,94587,900250,New Haven Unified School District,85751
+748,Cesar Chavez Middle School,Alameda,3,4,94587,900250,New Haven Unified School District,85751
+749,Tom Kitayama Elementary School,Alameda,6,5,94587,900250,New Haven Unified School District,85751
+750,James Logan high school,Alameda,7,4,94587,900250,New Haven Unified School District,85751
+751,Pioneer Elementary School,Alameda,5,4,94587,900250,New Haven Unified School District,85751
+752,Searles Elementary School,Alameda,3,4,94587,900250,New Haven Unified School District,85751
+753,Guy Jr. Emanuele Elementary School,Alameda,5,4,94587,900250,New Haven Unified School District,85751
+754,Delaine Eastin Elementary School,Alameda,9,4,94587,900250,New Haven Unified School District,85751
+757,Donlon Elementary School,Alameda,10,4,94588,1066666.667,Pleasanton Unified School District,113557
+758,Fairlands Elementary School,Alameda,8,5,94588,1066666.667,Pleasanton Unified School District,113557
+759,Foothill High School,Alameda,9,4,94588,1066666.667,Pleasanton Unified School District,113557
+760,Lydiksen Elementary School,Alameda,9,5,94588,1066666.667,Pleasanton Unified School District,113557
+761,Henry P. Mohr Elementary School,Alameda,9,4,94588,1066666.667,Pleasanton Unified School District,113557
+762,Thomas S. Hart Middle School,Alameda,9,4,94588,1066666.667,Pleasanton Unified School District,113557
+763,Parkmead Elementary School,Contra Costa,9,5,94595,531666.6667,Walnut Creek Elementary School District,74148
+764,Acalanes Center For Independent Study,Contra Costa,5,5,94595,531666.6667,Acalanes Union High School District,96950
+767,Las Lomas High School,Contra Costa,9,4,94596,907250,Acalanes Union High School District,96950
+768,Murwood Elementary School,Contra Costa,7,4,94596,907250,Walnut Creek Elementary School District,74148
+769,Walnut Heights Elementary School,Contra Costa,10,4,94596,907250,Walnut Creek Elementary School District,74148
+770,Buena Vista Elementary School,Contra Costa,7,4,94597,755833.3333,Walnut Creek Elementary School District,74148
+771,Walnut Creek Intermediate School,Contra Costa,8,4,94597,755833.3333,Walnut Creek Elementary School District,74148
+777,Indian Valley Elementary School,Contra Costa,9,4,94598,963000,Walnut Creek Elementary School District,74148
+778,Horace Mann Elementary School,Alameda,1,3,94601,636583.3333,Oakland Unified School District,49684
+779,Manzanita Community,Alameda,1,3,94601,636583.3333,Oakland Unified School District,49684
+780,Bridges Academy,Alameda,1,4,94601,636583.3333,Oakland Unified School District,49684
+781,Life Academy,Alameda,4,5,94601,636583.3333,Oakland Unified School District,49684
+782,International Community School,Alameda,2,4,94601,636583.3333,Oakland Unified School District,49684
+783,Urban Promise Academy,Alameda,2,5,94601,636583.3333,Oakland Unified School District,49684
+784,Think College Now School,Alameda,3,5,94601,636583.3333,Oakland Unified School District,49684
+785,Manzanita Seed,Alameda,4,4,94601,636583.3333,Oakland Unified School District,49684
+786,United For Success Academy,Alameda,1,4,94601,636583.3333,Oakland Unified School District,49684
+787,Global Family School,Alameda,2,3,94601,636583.3333,Oakland Unified School District,49684
+789,Fruitvale Elementary School,Alameda,1,4,94602,942416.6667,Oakland Unified School District,49684
+790,Glenview Elementary School,Alameda,6,5,94602,942416.6667,Oakland Unified School District,49684
+791,Bret Harte Middle School,Alameda,2,4,94602,942416.6667,Oakland Unified School District,49684
+792,Sequoia Elementary School,Alameda,6,5,94602,942416.6667,Oakland Unified School District,49684
+793,Brookfield Elementary School,Alameda,1,3,94603,465500,Oakland Unified School District,49684
+794,Madison Park Academy 6-12,Alameda,3,4,94603,465500,Oakland Unified School District,49684
+795,Madison Park Academy Tk-5,Alameda,2,4,94603,465500,Oakland Unified School District,49684
+796,Esperanza Elementary School,Alameda,3,5,94603,465500,Oakland Unified School District,49684
+797,Reach Academy,Alameda,1,5,94603,465500,Oakland Unified School District,49684
+798,Alliance Academy,Alameda,1,4,94603,465500,Oakland Unified School District,49684
+799,Elmhurst Community Prep School,Alameda,1,4,94603,465500,Oakland Unified School District,49684
+800,Fred T. Korematsu Discovery Academy,Alameda,2,5,94603,465500,Oakland Unified School District,49684
+801,Burckhalter Elementary School,Alameda,4,5,94605,667166.6667,Oakland Unified School District,49684
+802,Rudsdale Continuation School,Alameda,1,4,94605,667166.6667,Oakland Unified School District,49684
+803,Frick Middle School,Alameda,1,4,94605,667166.6667,Oakland Unified School District,49684
+804,Grass Valley Elementary School,Alameda,2,4,94605,667166.6667,Oakland Unified School District,49684
+805,Howard Elementary School,Alameda,2,4,94605,667166.6667,Oakland Unified School District,49684
+806,Markham Elementary School,Alameda,1,3,94605,667166.6667,Oakland Unified School District,49684
+807,Parker Elementary School,Alameda,2,4,94605,667166.6667,Oakland Unified School District,49684
+808,"Independent Study, Sojourner Truth School",Alameda,1,4,94605,667166.6667,Oakland Unified School District,49684
+810,Cleveland Elementary School,Alameda,7,5,94606,694500,Oakland Unified School District,49684
+812,Franklin Elementary School,Alameda,4,5,94606,694500,Oakland Unified School District,49684
+813,Garfield Elementary School,Alameda,2,4,94606,694500,Oakland Unified School District,49684
+814,La Escuelita Elementary School,Alameda,2,5,94606,694500,Oakland Unified School District,49684
+815,Roosevelt Middle School,Alameda,3,3,94606,694500,Oakland Unified School District,49684
+816,Metwest High School,Alameda,3,4,94606,694500,Oakland Unified School District,49684
+818,"Martin Luther King, Jr. Elementary School",Alameda,2,4,94607,711333.3333,Oakland Unified School District,49684
+819,Lafayette Elementary School,Alameda,1,3,94607,711333.3333,Oakland Unified School District,49684
+820,Lincoln Elementary School,Alameda,7,4,94607,711333.3333,Oakland Unified School District,49684
+821,Preparatory Literary Academy Of Cultural Excellence,Alameda,1,2,94607,711333.3333,Oakland Unified School District,49684
+824,Mcclymonds High School,Alameda,3,4,94607,711333.3333,Oakland Unified School District,49684
+825,West Oakland Middle School,Alameda,1,4,94607,711333.3333,Oakland Unified School District,49684
+826,Ralph J. Bunche High School,Alameda,1,5,94607,711333.3333,Oakland Unified School District,49684
+827,Gateway To College at Laney College School,Alameda,1,5,94607,711333.3333,Oakland Unified School District,49684
+830,Emery Secondary School,Alameda,4,3,94608,730333.3333,Emery Unified School District,57211
+831,Anna Yates Elementary School,Alameda,2,4,94608,730333.3333,Emery Unified School District,57211
+832,Hoover Elementary School,Alameda,1,3,94608,730333.3333,Oakland Unified School District,49684
+833,Emerson Elementary School,Alameda,1,4,94609,990250,Oakland Unified School District,49684
+834,Peralta Elementary School,Alameda,8,5,94609,990250,Oakland Unified School District,49684
+836,Sankofa Academy,Alameda,1,3,94609,990250,Oakland Unified School District,49684
+837,Oakland International High School,Alameda,2,5,94609,990250,Oakland Unified School District,49684
+838,Bella Vista Elementary School,Alameda,5,4,94610,940916.6667,Oakland Unified School District,49684
+839,Edna Brewer Middle School,Alameda,6,4,94610,940916.6667,Oakland Unified School District,49684
+840,Crocker Highlands Elementary School,Alameda,10,4,94610,940916.6667,Oakland Unified School District,49684
+841,Oakland High School,Alameda,3,3,94610,940916.6667,Oakland Unified School District,49684
+842,Joaquin Miller Elementary School,Alameda,7,4,94611,1223500,Oakland Unified School District,49684
+843,Montclair Elementary School,Alameda,9,5,94611,1223500,Oakland Unified School District,49684
+844,Montera Middle School,Alameda,4,3,94611,1223500,Oakland Unified School District,49684
+845,Oakland Technical High School,Alameda,8,4,94611,1223500,Oakland Unified School District,49684
+846,Piedmont Avenue Elementary School,Alameda,2,4,94611,1223500,Oakland Unified School District,49684
+847,Thornhill Elementary School,Alameda,9,4,94611,1223500,Oakland Unified School District,49684
+848,Beach Elementary School,Alameda,9,4,94611,1223500,Piedmont City Unified School District,167014
+849,Havens Elementary School,Alameda,9,5,94611,1223500,Piedmont City Unified School District,167014
+851,Piedmont High School,Alameda,10,4,94611,1223500,Piedmont City Unified School District,167014
+852,Piedmont Middle School,Alameda,10,4,94611,1223500,Piedmont City Unified School District,167014
+853,Wildwood Elementary School,Alameda,9,4,94611,1223500,Piedmont City Unified School District,167014
+855,Westlake Middle School,Alameda,1,4,94612,675166.6667,Oakland Unified School District,49684
+856,Chabot Elementary School,Alameda,9,5,94618,1450083.333,Oakland Unified School District,49684
+857,Claremont Middle School,Alameda,6,4,94618,1450083.333,Oakland Unified School District,49684
+858,Hillcrest Elementary School,Alameda,9,4,94618,1450083.333,Oakland Unified School District,49684
+859,Kaiser Elementary School,Alameda,7,5,94618,1450083.333,Oakland Unified School District,49684
+860,Allendale Elementary School,Alameda,1,3,94619,768250,Oakland Unified School District,49684
+861,Laurel Elementary School,Alameda,2,5,94619,768250,Oakland Unified School District,49684
+862,Carl B. Munck Elementary School,Alameda,2,4,94619,768250,Oakland Unified School District,49684
+863,Redwood Heights Elementary School,Alameda,5,5,94619,768250,Oakland Unified School District,49684
+864,Skyline High School,Alameda,4,4,94619,768250,Oakland Unified School District,49684
+865,Melrose Leadership Academy,Alameda,3,5,94619,768250,Oakland Unified School District,49684
+868,New Highland Academy,Alameda,1,5,94621,431083.3333,Oakland Unified School District,49684
+869,Acorn Woodland Elementary School,Alameda,4,5,94621,431083.3333,Oakland Unified School District,49684
+870,Encompass Academy Elementary,Alameda,2,4,94621,431083.3333,Oakland Unified School District,49684
+871,Rise Community School,Alameda,1,4,94621,431083.3333,Oakland Unified School District,49684
+872,Coliseum College Prep Academy,Alameda,4,3,94621,431083.3333,Oakland Unified School District,49684
+873,Roots International Academy,Alameda,1,4,94621,431083.3333,Oakland Unified School District,49684
+874,Greenleaf Elementary School,Alameda,4,5,94621,431083.3333,Oakland Unified School District,49684
+875,Community United Elementary School,Alameda,1,2,94621,431083.3333,Oakland Unified School District,49684
+876,Futures Elementary School,Alameda,1,5,94621,431083.3333,Oakland Unified School District,49684
+877,East Oakland Pride Elementary School,Alameda,2,5,94621,431083.3333,Oakland Unified School District,49684
+879,Jefferson Elementary School,Alameda,8,5,94702,975000,Berkeley Unified School District,59117
+881,Martin Luther King Middle School,Alameda,8,4,94703,1148166.667,Berkeley Unified School District,59117
+882,Longfellow Arts And Technology Middle School,Alameda,5,4,94703,1148166.667,Berkeley Unified School District,59117
+883,Malcolm X Elementary School,Alameda,6,5,94703,1148166.667,Berkeley Unified School District,59117
+884,Berkeley High School,Alameda,8,4,94704,883500,Berkeley Unified School District,59117
+885,Washington Elementary School,Alameda,7,4,94704,883500,Berkeley Unified School District,59117
+886,Berkeley Technology Academy,Alameda,1,5,94704,883500,Berkeley Unified School District,59117
+887,Emerson Elementary School,Alameda,7,5,94705,1487416.667,Berkeley Unified School District,59117
+888,Leconte Elementary School,Alameda,6,4,94705,1487416.667,Berkeley Unified School District,59117
+889,John Muir Elementary School,Alameda,6,5,94705,1487416.667,Berkeley Unified School District,59117
+890,Willard Middle School,Alameda,7,4,94705,1487416.667,Berkeley Unified School District,59117
+891,Albany High School,Alameda,9,4,94706,976333.3333,Albany City Unified School District,72516
+892,Albany Middle School,Alameda,9,4,94706,976333.3333,Albany City Unified School District,72516
+893,Cornell Elementary School,Alameda,10,4,94706,976333.3333,Albany City Unified School District,72516
+895,Marin Elementary School,Alameda,8,4,94706,976333.3333,Albany City Unified School District,72516
+896,Ocean View Elementary School,Alameda,8,5,94706,976333.3333,Albany City Unified School District,72516
+897,Oxford Elementary School,Alameda,6,4,94707,1351500,Berkeley Unified School District,59117
+898,Thousand Oaks Elementary School,Alameda,5,5,94707,1351500,Berkeley Unified School District,59117
+899,Cragmont Elementary School,Alameda,6,4,94708,1346833.333,Berkeley Unified School District,59117
+900,Kensington Elementary School,Contra Costa,9,4,94708,1346833.333,West Contra Costa Unified School District,63932
+901,Berkeley Arts Magnet at Whittier School,Alameda,8,4,94709,1051500,Berkeley Unified School District,59117
+902,Rosa Parks Environmental Science Magnet School,Alameda,7,4,94710,1025833.333,Berkeley Unified School District,59117
+903,Cesar E. Chavez Elementary School,Contra Costa,1,4,94801,454166.6667,West Contra Costa Unified School District,63932
+905,Lincoln Elementary School,Contra Costa,1,5,94801,454166.6667,West Contra Costa Unified School District,63932
+906,Peres Elementary School,Contra Costa,2,3,94801,454166.6667,West Contra Costa Unified School District,63932
+907,Verde Elementary School,Contra Costa,1,2,94801,454166.6667,West Contra Costa Unified School District,63932
+908,Washington Elementary School,Contra Costa,2,3,94801,454166.6667,West Contra Costa Unified School District,63932
+909,Crespi Junior High School,Contra Costa,2,3,94803,592500,West Contra Costa Unified School District,63932
+910,De Anza Senior High School,Contra Costa,3,3,94803,592500,West Contra Costa Unified School District,63932
+911,Murphy Elementary School,Contra Costa,5,4,94803,592500,West Contra Costa Unified School District,63932
+912,Olinda Elementary School,Contra Costa,6,4,94803,592500,West Contra Costa Unified School District,63932
+913,Sheldon Elementary School,Contra Costa,3,4,94803,592500,West Contra Costa Unified School District,63932
+914,Valley View Elementary School,Contra Costa,5,4,94803,592500,West Contra Costa Unified School District,63932
+916,Coronado Elementary School,Contra Costa,1,5,94804,503166.6667,West Contra Costa Unified School District,63932
+917,Ford Elementary School,Contra Costa,2,4,94804,503166.6667,West Contra Costa Unified School District,63932
+918,Grant Elementary School,Contra Costa,1,4,94804,503166.6667,West Contra Costa Unified School District,63932
+919,Kennedy High School,Contra Costa,2,3,94804,503166.6667,West Contra Costa Unified School District,63932
+920,King Elementary School,Contra Costa,1,3,94804,503166.6667,West Contra Costa Unified School District,63932
+921,Nystrom Elementary School,Contra Costa,1,5,94804,503166.6667,West Contra Costa Unified School District,63932
+922,Richmond High School,Contra Costa,2,3,94804,503166.6667,West Contra Costa Unified School District,63932
+923,Stege Elementary School,Contra Costa,1,3,94804,503166.6667,West Contra Costa Unified School District,63932
+924,Mira Vista Elementary School,Contra Costa,4,4,94805,635333.3333,West Contra Costa Unified School District,63932
+925,Wilson Elementary School,Contra Costa,2,4,94805,635333.3333,West Contra Costa Unified School District,63932
+926,Lovonya Dejean Middle School,Contra Costa,1,2,94805,635333.3333,West Contra Costa Unified School District,63932
+929,Bayview Elementary School,Contra Costa,1,3,94806,458833.3333,West Contra Costa Unified School District,63932
+930,Dover Elementary School,Contra Costa,1,4,94806,458833.3333,West Contra Costa Unified School District,63932
+931,Edward M. Downer Elementary School,Contra Costa,2,4,94806,458833.3333,West Contra Costa Unified School District,63932
+932,Helms Middle School,Contra Costa,1,4,94806,458833.3333,West Contra Costa Unified School District,63932
+933,Highland Elementary School,Contra Costa,4,3,94806,458833.3333,West Contra Costa Unified School District,63932
+934,Lake Elementary School,Contra Costa,2,3,94806,458833.3333,West Contra Costa Unified School District,63932
+935,Middle College High School,Contra Costa,8,4,94806,458833.3333,West Contra Costa Unified School District,63932
+936,Montalvin Manor Elementary School,Contra Costa,5,3,94806,458833.3333,West Contra Costa Unified School District,63932
+937,Riverside Elementary School,Contra Costa,3,3,94806,458833.3333,West Contra Costa Unified School District,63932
+938,Tara Hills Elementary School,Contra Costa,3,4,94806,458833.3333,West Contra Costa Unified School District,63932
+947,Boulder Creek Elementary School,Santa Cruz,5,4,95006,568583.3333,San Lorenzo Valley Unified School District,79706
+949,Westmont High School,Santa Clara,8,4,95008,1365583.333,Campbell Union High School District,78683
+962,Cupertino High School,Santa Clara,9,4,95014,2153166.667,Fremont Union High School District,100428
+963,Homestead High School,Santa Clara,9,4,95014,2153166.667,Fremont Union High School District,100428
+964,Monta Vista High School,Santa Clara,10,4,95014,2153166.667,Fremont Union High School District,100428
+967,San Lorenzo Valley Elementary School,Santa Cruz,9,4,95018,619666.6667,San Lorenzo Valley Unified School District,79706
+968,San Lorenzo Valley High School,Santa Cruz,9,4,95018,619666.6667,San Lorenzo Valley Unified School District,79706
+969,San Lorenzo Valley Middle School,Santa Cruz,5,3,95018,619666.6667,San Lorenzo Valley Unified School District,79706
+971,Luigi Aprea Elementary School,Santa Clara,7,4,95020,771416.6667,Gilroy Unified School District,73410
+972,Brownell Middle School,Santa Clara,5,3,95020,771416.6667,Gilroy Unified School District,73410
+973,El Roble Elementary School,Santa Clara,3,4,95020,771416.6667,Gilroy Unified School District,73410
+974,Eliot Elementary School,Santa Clara,4,5,95020,771416.6667,Gilroy Unified School District,73410
+975,Gilroy High School,Santa Clara,5,3,95020,771416.6667,Gilroy Unified School District,73410
+976,Glen View Elementary School,Santa Clara,3,3,95020,771416.6667,Gilroy Unified School District,73410
+977,Rod Kelley Elementary School,Santa Clara,7,4,95020,771416.6667,Gilroy Unified School District,73410
+978,Las Animas Elementary School,Santa Clara,6,3,95020,771416.6667,Gilroy Unified School District,73410
+980,Rucker Elementary School,Santa Clara,6,4,95020,771416.6667,Gilroy Unified School District,73410
+981,South Valley Middle School,Santa Clara,4,4,95020,771416.6667,Gilroy Unified School District,73410
+982,Antonio Del Buono Elementary School,Santa Clara,4,3,95020,771416.6667,Gilroy Unified School District,73410
+983,Solorsano Middle School,Santa Clara,6,4,95020,771416.6667,Gilroy Unified School District,73410
+986,Dr. T. J. Owens Gilroy Early College Academy,Santa Clara,10,5,95020,771416.6667,Gilroy Unified School District,73410
+987,Christopher High School,Santa Clara,7,5,95020,771416.6667,Gilroy Unified School District,73410
+989,Daves Avenue Elementary School,Santa Clara,10,4,95030,2582166.667,Los Gatos Union Elementary School District,131727
+990,Blossom Hill Elementary School,Santa Clara,9,4,95032,1774000,Los Gatos Union Elementary School District,131727
+991,Raymond J. Fisher Middle School,Santa Clara,10,4,95032,1774000,Los Gatos Union Elementary School District,131727
+992,Louise Van Meter Elementary School,Santa Clara,10,4,95032,1774000,Los Gatos Union Elementary School District,131727
+993,Alta Vista Elementary School,Santa Clara,8,4,95032,1774000,Union Elementary School District,103493
+995,Lexington Elementary School,Santa Clara,7,4,95033,1068583.333,Los Gatos Union Elementary School District,131727
+996,C. T. English Middle School,Santa Clara,9,4,95033,1068583.333,Loma Prieta Joint Union Elementary School District,101767
+997,Loma Prieta Elementary School,Santa Clara,8,4,95033,1068583.333,Loma Prieta Joint Union Elementary School District,101767
+998,William Burnett Elementary School,Santa Clara,7,4,95035,1074250,Milpitas Unified School District,92463
+1000,Curtner Elementary School,Santa Clara,9,4,95035,1074250,Milpitas Unified School District,92463
+1001,Milpitas High School,Santa Clara,9,4,95035,1074250,Milpitas Unified School District,92463
+1002,Marshall Pomeroy Elementary School,Santa Clara,8,4,95035,1074250,Milpitas Unified School District,92463
+1003,Rancho Milpitas Middle School,Santa Clara,8,5,95035,1074250,Milpitas Unified School District,92463
+1004,Robert Randall Elementary School,Santa Clara,3,4,95035,1074250,Milpitas Unified School District,92463
+1005,Alexander Rose Elementary School,Santa Clara,7,5,95035,1074250,Milpitas Unified School District,92463
+1006,Thomas Russell Middle School,Santa Clara,9,3,95035,1074250,Milpitas Unified School District,92463
+1007,John Sinnott Elementary School,Santa Clara,9,4,95035,1074250,Milpitas Unified School District,92463
+1008,Anthony Spangler Elementary School,Santa Clara,8,4,95035,1074250,Milpitas Unified School District,92463
+1009,Joseph Weller Elementary School,Santa Clara,7,4,95035,1074250,Milpitas Unified School District,92463
+1010,Pearl Zanker Elementary School,Santa Clara,7,4,95035,1074250,Milpitas Unified School District,92463
+1012,Lewis H. Britton Middle School,Santa Clara,4,4,95037,941416.6667,Morgan Hill Unified School District,96812
+1014,El Toro Elementary School,Santa Clara,3,4,95037,941416.6667,Morgan Hill Unified School District,96812
+1015,Jackson Academy Of Music And Math (Jamm),Santa Clara,6,4,95037,941416.6667,Morgan Hill Unified School District,96812
+1016,Live Oak High School,Santa Clara,7,3,95037,941416.6667,Morgan Hill Unified School District,96812
+1017,Nordstrom Elementary School,Santa Clara,6,4,95037,941416.6667,Morgan Hill Unified School District,96812
+1018,Paradise Valley/Machado Elementary School,Santa Clara,7,4,95037,941416.6667,Morgan Hill Unified School District,96812
+1019,P. A. Walsh Elementary School,Santa Clara,2,3,95037,941416.6667,Morgan Hill Unified School District,96812
+1020,Barrett Elementary School,Santa Clara,4,4,95037,941416.6667,Morgan Hill Unified School District,96812
+1022,Ann Sobrato High School,Santa Clara,8,4,95037,941416.6667,Morgan Hill Unified School District,96812
+1023,San Martin/Gwinn Elementary School,Santa Clara,2,4,95046,1237333.333,Morgan Hill Unified School District,96812
+1024,Buchser Middle School,Santa Clara,5,3,95050,1296416.667,Santa Clara Unified School District,84441
+1025,C. W. Haman Elementary School,Santa Clara,7,4,95050,1296416.667,Santa Clara Unified School District,84441
+1026,Scott Lane Elementary School,Santa Clara,3,4,95050,1296416.667,Santa Clara Unified School District,84441
+1027,Washington Elementary School,Santa Clara,9,4,95050,1296416.667,Santa Clara Unified School District,84441
+1028,Westwood Elementary School,Santa Clara,7,4,95050,1296416.667,Santa Clara Unified School District,84441
+1029,Wilson Alternative School,Santa Clara,1,5,95050,1296416.667,Santa Clara Unified School District,84441
+1032,Bowers Elementary School,Santa Clara,5,4,95051,1418333.333,Santa Clara Unified School District,84441
+1033,Bracher Elementary School,Santa Clara,6,4,95051,1418333.333,Santa Clara Unified School District,84441
+1034,Briarwood Elementary School,Santa Clara,7,4,95051,1418333.333,Santa Clara Unified School District,84441
+1035,Juan Cabrillo Middle School,Santa Clara,6,4,95051,1418333.333,Santa Clara Unified School District,84441
+1036,Laurelwood Elementary School,Santa Clara,9,4,95051,1418333.333,Santa Clara Unified School District,84441
+1037,Millikin Elementary School,Santa Clara,9,5,95051,1418333.333,Santa Clara Unified School District,84441
+1039,Pomeroy Elementary School,Santa Clara,4,4,95051,1418333.333,Santa Clara Unified School District,84441
+1040,Santa Clara High School,Santa Clara,7,3,95051,1418333.333,Santa Clara Unified School District,84441
+1041,Sutter Elementary School,Santa Clara,7,4,95051,1418333.333,Santa Clara Unified School District,84441
+1042,Adrian Wilcox High School,Santa Clara,8,4,95051,1418333.333,Santa Clara Unified School District,84441
+1045,Kathryn Hughes Elementary School,Santa Clara,5,4,95054,1300583.333,Santa Clara Unified School District,84441
+1046,Montague Elementary School,Santa Clara,5,4,95054,1300583.333,Santa Clara Unified School District,84441
+1047,Don Callejon School,Santa Clara,6,4,95054,1300583.333,Santa Clara Unified School District,84441
+1049,Bonny Doon Elementary School,Santa Cruz,7,4,95060,925750,Bonny Doon Union Elementary School District,87550
+1050,Bay View Elementary School,Santa Cruz,4,4,95060,925750,Santa Cruz City Elementary School District,58543
+1051,Mission Hill Middle School,Santa Cruz,6,3,95060,925750,Santa Cruz City High School District,59036
+1052,Westlake Elementary School,Santa Cruz,7,4,95060,925750,Santa Cruz City Elementary School District,58543
+1053,Santa Cruz High School,Santa Cruz,8,4,95060,925750,Santa Cruz City High School District,59036
+1054,Brook Knoll Elementary School,Santa Cruz,9,4,95060,925750,Scotts Valley Unified School District,99740
+1058,Del Mar Elementary School,Santa Cruz,6,4,95062,928583.3333,Live Oak Elementary School District,53960
+1059,Green Acres Elementary School,Santa Cruz,6,4,95062,928583.3333,Live Oak Elementary School District,53960
+1060,Live Oak Elementary School,Santa Cruz,7,3,95062,928583.3333,Live Oak Elementary School District,53960
+1061,Shoreline Middle School,Santa Cruz,5,4,95062,928583.3333,Live Oak Elementary School District,53960
+1062,Branciforte Middle School,Santa Cruz,5,3,95062,928583.3333,Santa Cruz City High School District,59036
+1063,Gault Elementary School,Santa Cruz,2,4,95062,928583.3333,Santa Cruz City Elementary School District,58543
+1064,Harbor High School,Santa Cruz,8,3,95062,928583.3333,Santa Cruz City High School District,59036
+1067,Ark Independent Studies School,Santa Cruz,2,5,95062,928583.3333,Santa Cruz City High School District,59036
+1068,Alternative Family Education School,Santa Cruz,2,4,95062,928583.3333,Santa Cruz City High School District,59036
+1072,De Laveaga Elementary School,Santa Cruz,5,4,95065,851750,Santa Cruz City Elementary School District,58543
+1074,Scotts Valley Middle School,Santa Cruz,8,4,95066,919166.6667,Scotts Valley Unified School District,99740
+1075,Vine Hill Elementary School,Santa Cruz,9,4,95066,919166.6667,Scotts Valley Unified School District,99740
+1076,Scotts Valley High School,Santa Cruz,9,4,95066,919166.6667,Scotts Valley Unified School District,99740
+1077,Prospect High School,Santa Clara,8,3,95070,2697833.333,Campbell Union High School District,78683
+1081,Argonaut Elementary School,Santa Clara,9,4,95070,2697833.333,Saratoga Union Elementary School District,149083
+1082,Foothill Elementary School,Santa Clara,9,4,95070,2697833.333,Saratoga Union Elementary School District,149083
+1083,Redwood Middle School,Santa Clara,9,4,95070,2697833.333,Saratoga Union Elementary School District,149083
+1084,Saratoga Elementary School,Santa Clara,9,5,95070,2697833.333,Saratoga Union Elementary School District,149083
+1085,Mountain Elementary School,Santa Cruz,8,5,95073,833833.3333,Mountain Elementary School District,111125
+1086,Soquel High School,Santa Cruz,7,3,95073,833833.3333,Santa Cruz City High School District,59036
+1111,Washington Elementary School,Santa Clara,4,4,95110,801250,San Jose Unified School District,74908
+1112,Andrew P. Hill High School,Santa Clara,5,4,95111,764416.6667,East Side Union High School District,79049
+1113,Franklin Elementary School,Santa Clara,5,4,95111,764416.6667,Franklin-Mckinley Elementary School District,58109
+1114,G. W. Hellyer Elementary School,Santa Clara,6,3,95111,764416.6667,Franklin-Mckinley Elementary School District,58109
+1115,Captain Jason M. Dahl Elementary School,Santa Clara,4,3,95111,764416.6667,Franklin-Mckinley Elementary School District,58109
+1116,Los Arboles Elementary School,Santa Clara,1,4,95111,764416.6667,Franklin-Mckinley Elementary School District,58109
+1117,Daniel Lairon Elementary School,Santa Clara,3,4,95111,764416.6667,Franklin-Mckinley Elementary School District,58109
+1118,Sylvandale Middle School,Santa Clara,4,4,95111,764416.6667,Franklin-Mckinley Elementary School District,58109
+1119,Christopher Elementary School,Santa Clara,5,3,95111,764416.6667,Oak Grove Elementary School District,87312
+1120,Davis (Caroline) Intermediate School,Santa Clara,4,4,95111,764416.6667,Oak Grove Elementary School District,87312
+1121,Edenvale Elementary School,Santa Clara,3,3,95111,764416.6667,Oak Grove Elementary School District,87312
+1122,Stipe (Samuel) Elementary School,Santa Clara,3,4,95111,764416.6667,Oak Grove Elementary School District,87312
+1123,Peter Burnett Middle School,Santa Clara,3,3,95112,880333.3333,San Jose Unified School District,74908
+1124,Empire Gardens Elementary School,Santa Clara,3,4,95112,880333.3333,San Jose Unified School District,74908
+1125,Grant Elementary School,Santa Clara,3,3,95112,880333.3333,San Jose Unified School District,74908
+1126,Lowell Elementary School,Santa Clara,3,3,95112,880333.3333,San Jose Unified School District,74908
+1127,Horace Mann Elementary School,Santa Clara,3,4,95112,880333.3333,San Jose Unified School District,74908
+1128,"Shirakawa (George, Sr.) Elementary School",Santa Clara,6,4,95112,880333.3333,Franklin-Mckinley Elementary School District,58109
+1129,Clyde Arbuckle Elementary School,Santa Clara,1,3,95116,718500,Alum Rock Union Elementary School District,57749
+1130,Cesar Chavez Elementary School,Santa Clara,4,2,95116,718500,Alum Rock Union Elementary School District,57749
+1131,Lee Mathson Middle School,Santa Clara,2,4,95116,718500,Alum Rock Union Elementary School District,57749
+1132,San Antonio Elementary School,Santa Clara,4,4,95116,718500,Alum Rock Union Elementary School District,57749
+1133,McKinley Elementary School,Santa Clara,3,3,95116,718500,Franklin-Mckinley Elementary School District,58109
+1134,Selma Olinder Elementary School,Santa Clara,2,3,95116,718500,San Jose Unified School District,74908
+1135,San Jose High School,Santa Clara,4,4,95116,718500,San Jose Unified School District,74908
+1136,Learning In An Urban Community With High Achievement (L.U.C.H.A.),Santa Clara,5,5,95116,718500,Alum Rock Union Elementary School District,57749
+1141,Almaden Elementary School,Santa Clara,4,4,95118,1191000,San Jose Unified School District,74908
+1143,Hacienda Science/Environmental Magnet School,Santa Clara,7,4,95118,1191000,San Jose Unified School District,74908
+1144,John Muir Middle School,Santa Clara,6,3,95118,1191000,San Jose Unified School District,74908
+1145,Pioneer High School,Santa Clara,9,4,95118,1191000,San Jose Unified School District,74908
+1146,Reed Elementary School,Santa Clara,7,4,95118,1191000,San Jose Unified School District,74908
+1147,Dartmouth Middle School,Santa Clara,8,4,95118,1191000,Union Elementary School District,103493
+1148,Lietz Elementary School,Santa Clara,7,5,95118,1191000,Union Elementary School District,103493
+1149,Branham High School,Santa Clara,9,3,95118,1191000,Campbell Union High School District,78683
+1150,Baldwin (Julia) Elementary School,Santa Clara,5,4,95119,1014833.333,Oak Grove Elementary School District,87312
+1151,Bernal Intermediate School,Santa Clara,7,4,95119,1014833.333,Oak Grove Elementary School District,87312
+1152,Santa Teresa Elementary School,Santa Clara,7,4,95119,1014833.333,Oak Grove Elementary School District,87312
+1154,Castillero Middle School,Santa Clara,6,4,95120,1576583.333,San Jose Unified School District,74908
+1155,Graystone Elementary School,Santa Clara,8,5,95120,1576583.333,San Jose Unified School District,74908
+1156,Bret Harte Middle School,Santa Clara,8,4,95120,1576583.333,San Jose Unified School District,74908
+1157,Leland High School,Santa Clara,9,3,95120,1576583.333,San Jose Unified School District,74908
+1158,Los Alamitos Elementary School,Santa Clara,8,5,95120,1576583.333,San Jose Unified School District,74908
+1159,Simonds Elementary School,Santa Clara,9,4,95120,1576583.333,San Jose Unified School District,74908
+1160,Williams Elementary School,Santa Clara,9,4,95120,1576583.333,San Jose Unified School District,74908
+1161,Guadalupe Elementary School,Santa Clara,9,4,95120,1576583.333,Union Elementary School District,103493
+1162,Silver Creek High School,Santa Clara,9,4,95121,866000,East Side Union High School District,79049
+1163,Cadwallader Elementary School,Santa Clara,7,4,95121,866000,Evergreen Elementary School District,98547
+1164,Dove Hill Elementary School,Santa Clara,4,4,95121,866000,Evergreen Elementary School District,98547
+1165,Laurelwood Elementary School,Santa Clara,5,3,95121,866000,Evergreen Elementary School District,98547
+1166,John J. Montgomery Elementary School,Santa Clara,4,4,95121,866000,Evergreen Elementary School District,98547
+1167,O. B. Whaley Elementary School,Santa Clara,4,5,95121,866000,Evergreen Elementary School District,98547
+1168,Stonegate Elementary School,Santa Clara,5,4,95121,866000,Franklin-Mckinley Elementary School District,58109
+1169,Windmill Springs Elementary School,Santa Clara,5,4,95121,866000,Franklin-Mckinley Elementary School District,58109
+1170,James Franklin Smith Elementary School,Santa Clara,9,5,95121,866000,Evergreen Elementary School District,98547
+1171,Ramblewood Elementary School,Santa Clara,7,5,95121,866000,Franklin-Mckinley Elementary School District,58109
+1172,Sylvia Cassell Elementary School,Santa Clara,3,2,95122,734333.3333,Alum Rock Union Elementary School District,57749
+1173,A. J. Dorsa Elementary School,Santa Clara,2,4,95122,734333.3333,Alum Rock Union Elementary School District,57749
+1174,Clyde L. Fischer Middle School,Santa Clara,2,4,95122,734333.3333,Alum Rock Union Elementary School District,57749
+1175,O. S. Hubbard Elementary School,Santa Clara,4,4,95122,734333.3333,Alum Rock Union Elementary School District,57749
+1176,Donald J. Meyer Elementary School,Santa Clara,5,3,95122,734333.3333,Alum Rock Union Elementary School District,57749
+1178,William C. Overfelt High School,Santa Clara,3,4,95122,734333.3333,East Side Union High School District,79049
+1179,Yerba Buena High School,Santa Clara,6,4,95122,734333.3333,East Side Union High School District,79049
+1180,George V. Leyva Intermediate School,Santa Clara,4,4,95122,734333.3333,Evergreen Elementary School District,98547
+1181,Katherine R. Smith Elementary School,Santa Clara,2,5,95122,734333.3333,Evergreen Elementary School District,98547
+1182,Robert F. Kennedy Elementary School,Santa Clara,4,4,95122,734333.3333,Franklin-Mckinley Elementary School District,58109
+1183,Jeanne R. Meadows Elementary School,Santa Clara,7,4,95122,734333.3333,Franklin-Mckinley Elementary School District,58109
+1184,Santee Elementary School,Santa Clara,3,2,95122,734333.3333,Franklin-Mckinley Elementary School District,58109
+1185,Renaissance Academy,Santa Clara,8,5,95122,734333.3333,Alum Rock Union Elementary School District,57749
+1188,Oak Grove High School,Santa Clara,6,4,95123,965083.3333,East Side Union High School District,79049
+1190,Santa Teresa High School,Santa Clara,9,3,95123,965083.3333,East Side Union High School District,79049
+1191,Anderson (Alex) Elementary School,Santa Clara,5,4,95123,965083.3333,Oak Grove Elementary School District,87312
+1192,Del Roble Elementary School,Santa Clara,4,4,95123,965083.3333,Oak Grove Elementary School District,87312
+1193,Frost (Earl) Elementary School,Santa Clara,5,4,95123,965083.3333,Oak Grove Elementary School District,87312
+1194,Glider Elementary School,Santa Clara,6,4,95123,965083.3333,Oak Grove Elementary School District,87312
+1195,Herman (Leonard) Intermediate School,Santa Clara,8,4,95123,965083.3333,Oak Grove Elementary School District,87312
+1196,Miner (George) Elementary School,Santa Clara,3,3,95123,965083.3333,Oak Grove Elementary School District,87312
+1197,Oak Ridge Elementary School,Santa Clara,7,4,95123,965083.3333,Oak Grove Elementary School District,87312
+1198,Sakamoto Elementary School,Santa Clara,7,4,95123,965083.3333,Oak Grove Elementary School District,87312
+1199,Taylor (Bertha) Elementary School,Santa Clara,7,4,95123,965083.3333,Oak Grove Elementary School District,87312
+1200,Allen at Steinbeck School,Santa Clara,5,4,95123,965083.3333,San Jose Unified School District,74908
+1204,Leigh High School,Santa Clara,9,3,95124,1347916.667,Campbell Union High School District,78683
+1205,Carlton Elementary School,Santa Clara,9,4,95124,1347916.667,Union Elementary School District,103493
+1206,Noddin Elementary School,Santa Clara,8,4,95124,1347916.667,Union Elementary School District,103493
+1207,Oster Elementary School,Santa Clara,9,4,95124,1347916.667,Union Elementary School District,103493
+1208,Union Middle School,Santa Clara,9,4,95124,1347916.667,Union Elementary School District,103493
+1211,Booksin Elementary School,Santa Clara,8,4,95125,1407916.667,San Jose Unified School District,74908
+1212,Gardner Elementary School,Santa Clara,3,3,95125,1407916.667,San Jose Unified School District,74908
+1213,River Glen School,Santa Clara,6,4,95125,1407916.667,San Jose Unified School District,74908
+1214,Schallenberger Elementary School,Santa Clara,6,4,95125,1407916.667,San Jose Unified School District,74908
+1215,Willow Glen Elementary School,Santa Clara,5,4,95125,1407916.667,San Jose Unified School District,74908
+1216,Willow Glen High School,Santa Clara,7,4,95125,1407916.667,San Jose Unified School District,74908
+1217,Willow Glen Middle School,Santa Clara,6,3,95125,1407916.667,San Jose Unified School District,74908
+1218,Hammer Montessori At Galarza Elementary School,Santa Clara,8,4,95125,1407916.667,San Jose Unified School District,74908
+1219,Canoas Elementary School,Santa Clara,5,3,95125,1407916.667,San Jose Unified School District,74908
+1220,Ernesto Galarza Elementary School,Santa Clara,2,3,95125,1407916.667,San Jose Unified School District,74908
+1221,Herbert Hoover Middle School,Santa Clara,3,3,95126,1086666.667,San Jose Unified School District,74908
+1222,Abraham Lincoln High School,Santa Clara,7,5,95126,1086666.667,San Jose Unified School District,74908
+1223,Merritt Trace Elementary School,Santa Clara,4,3,95126,1086666.667,San Jose Unified School District,74908
+1224,Horace Cureton Elementary School,Santa Clara,4,4,95127,821166.6667,Alum Rock Union Elementary School District,57749
+1225,Joseph George Middle School,Santa Clara,3,3,95127,821166.6667,Alum Rock Union Elementary School District,57749
+1226,Linda Vista Elementary School,Santa Clara,6,3,95127,821166.6667,Alum Rock Union Elementary School District,57749
+1227,Lyndale Elementary School,Santa Clara,5,3,95127,821166.6667,Alum Rock Union Elementary School District,57749
+1228,Millard Mccollam Elementary School,Santa Clara,6,5,95127,821166.6667,Alum Rock Union Elementary School District,57749
+1229,Thomas P. Ryan Elementary School,Santa Clara,5,4,95127,821166.6667,Alum Rock Union Elementary School District,57749
+1230,Toyon Elementary School,Santa Clara,1,3,95127,821166.6667,Berryessa Union Elementary School District,89186
+1232,James Lick High School,Santa Clara,5,4,95127,821166.6667,East Side Union High School District,79049
+1233,Mt. Pleasant High School,Santa Clara,6,4,95127,821166.6667,East Side Union High School District,79049
+1234,Mount Pleasant Elementary School,Santa Clara,3,4,95127,821166.6667,Mount Pleasant Elementary School District,83445
+1235,Robert Sanders Elementary School,Santa Clara,2,4,95127,821166.6667,Mount Pleasant Elementary School District,83445
+1236,Adelante Dual Language Academy,Santa Clara,6,4,95127,821166.6667,Alum Rock Union Elementary School District,57749
+1237,Anthony P. Russo Academy,Santa Clara,4,4,95127,821166.6667,Alum Rock Union Elementary School District,57749
+1238,Del Mar High School,Santa Clara,6,4,95128,1165333.333,Campbell Union High School District,78683
+1240,Middle College High School,Santa Clara,6,4,95128,1165333.333,San Jose Unified School District,74908
+1248,Lynbrook High School,Santa Clara,10,4,95129,1827916.667,Fremont Union High School District,100428
+1255,Brooktree Elementary School,Santa Clara,6,4,95131,1081833.333,Berryessa Union Elementary School District,89186
+1256,Vinci Park Elementary School,Santa Clara,8,3,95131,1081833.333,Berryessa Union Elementary School District,89186
+1257,Orchard Elementary School,Santa Clara,6,4,95131,1081833.333,Orchard Elementary School District,94801
+1260,Cherrywood Elementary School,Santa Clara,7,4,95132,1165833.333,Berryessa Union Elementary School District,89186
+1261,Laneview Elementary School,Santa Clara,7,4,95132,1165833.333,Berryessa Union Elementary School District,89186
+1262,Majestic Way Elementary School,Santa Clara,8,4,95132,1165833.333,Berryessa Union Elementary School District,89186
+1263,Morrill Middle School,Santa Clara,7,4,95132,1165833.333,Berryessa Union Elementary School District,89186
+1264,Noble Elementary School,Santa Clara,7,4,95132,1165833.333,Berryessa Union Elementary School District,89186
+1265,Northwood Elementary School,Santa Clara,9,4,95132,1165833.333,Berryessa Union Elementary School District,89186
+1266,Piedmont Middle School,Santa Clara,6,4,95132,1165833.333,Berryessa Union Elementary School District,89186
+1267,Ruskin Elementary School,Santa Clara,8,4,95132,1165833.333,Berryessa Union Elementary School District,89186
+1268,Sierramont Middle School,Santa Clara,7,4,95132,1165833.333,Berryessa Union Elementary School District,89186
+1269,Summerdale Elementary School,Santa Clara,6,4,95132,1165833.333,Berryessa Union Elementary School District,89186
+1270,Piedmont Hills High School,Santa Clara,9,4,95132,1165833.333,East Side Union High School District,79049
+1272,Ben Painter Elementary School,Santa Clara,3,3,95133,877750,Alum Rock Union Elementary School District,57749
+1273,William Sheppard Middle School,Santa Clara,3,3,95133,877750,Alum Rock Union Elementary School District,57749
+1274,Independence High School,Santa Clara,7,4,95133,877750,East Side Union High School District,79049
+1276,Anne Darling Elementary School,Santa Clara,3,3,95133,877750,San Jose Unified School District,74908
+1279,Chaboya Middle School,Santa Clara,9,4,95135,1065666.667,Evergreen Elementary School District,98547
+1280,Evergreen Elementary School,Santa Clara,8,4,95135,1065666.667,Evergreen Elementary School District,98547
+1281,Tom Matsumoto Elementary School,Santa Clara,9,4,95135,1065666.667,Evergreen Elementary School District,98547
+1282,Hayes Elementary School,Santa Clara,6,4,95136,975666.6667,Oak Grove Elementary School District,87312
+1283,Parkview Elementary School,Santa Clara,6,4,95136,975666.6667,Oak Grove Elementary School District,87312
+1284,Rachel Carson Elementary School,Santa Clara,5,4,95136,975666.6667,San Jose Unified School District,74908
+1285,Gunderson High School,Santa Clara,5,4,95136,975666.6667,San Jose Unified School District,74908
+1286,Terrell Elementary School,Santa Clara,4,4,95136,975666.6667,San Jose Unified School District,74908
+1290,Silver Oak Elementary School,Santa Clara,9,4,95138,1224250,Evergreen Elementary School District,98547
+1291,Ledesma (Rita) Elementary School,Santa Clara,7,4,95138,1224250,Oak Grove Elementary School District,87312
+1292,Los Paseos Elementary School,Santa Clara,5,4,95139,907666.6667,Morgan Hill Unified School District,96812
+1293,Martin Murphy Middle School,Santa Clara,6,3,95139,907666.6667,Morgan Hill Unified School District,96812
+1294,Ocala Middle School,Santa Clara,4,4,95148,1050583.333,Alum Rock Union Elementary School District,57749
+1295,Cedar Grove Elementary School,Santa Clara,5,4,95148,1050583.333,Evergreen Elementary School District,98547
+1296,Holly Oak Elementary School,Santa Clara,5,3,95148,1050583.333,Evergreen Elementary School District,98547
+1297,Millbrook Elementary School,Santa Clara,7,4,95148,1050583.333,Evergreen Elementary School District,98547
+1298,Norwood Creek Elementary School,Santa Clara,7,4,95148,1050583.333,Evergreen Elementary School District,98547
+1299,Quimby Oak Middle School,Santa Clara,8,4,95148,1050583.333,Evergreen Elementary School District,98547
+1300,August Boeger Middle School,Santa Clara,4,3,95148,1050583.333,Mount Pleasant Elementary School District,83445
+1301,Valle Vista Elementary School,Santa Clara,3,4,95148,1050583.333,Mount Pleasant Elementary School District,83445
+1302,Evergreen Valley High School,Santa Clara,10,3,95148,1050583.333,East Side Union High School District,79049
+1303,Carolyn A. Clark Elementary School,Santa Clara,10,5,95148,1050583.333,Evergreen Elementary School District,98547
