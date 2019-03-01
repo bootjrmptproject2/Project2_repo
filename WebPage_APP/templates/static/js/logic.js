@@ -45,7 +45,7 @@
             myMap.addLayer(markers);  
 
             var heatmap = L.heatLayer(heatArray, {
-                radius: 25,
+                radius: 20,
                 max: 4,
                 blur: 15,              
                 gradient: {
@@ -54,7 +54,7 @@
                     1: 'orange'
                 },
                 minOpacity: 0.05,
-                maxZoom: 12.0
+                maxZoom: 11.0
             }).addTo(myMap);
 
             var baseLayers = {
