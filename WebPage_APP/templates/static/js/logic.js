@@ -45,16 +45,16 @@
             myMap.addLayer(markers);  
 
             var heatmap = L.heatLayer(heatArray, {
-                radius: 15,
-                max: 3,
+                radius: 25,
+                max: 4,
                 blur: 15,              
                 gradient: {
-                    0.0: 'darkred',
+                    0.0: 'green',
                     0.5: 'yellow',
-                    1: 'green'
+                    1: 'orange'
                 },
-                minOpacity: 0.35,
-                maxZoom: 10.0
+                minOpacity: 0.05,
+                maxZoom: 12.0
             }).addTo(myMap);
 
             var baseLayers = {
@@ -63,10 +63,10 @@
 
             var overlayMaps = {
                 "Schools": markers,
-                "Ratings Heat Map": heatmap
+                "Top Schools Heat Map": heatmap
             };
       
-              L.control.layers(baseLayers, overlayMaps, {
+            L.control.layers(baseLayers, overlayMaps, {
               collapsed: false
             }).addTo(myMap);
 
