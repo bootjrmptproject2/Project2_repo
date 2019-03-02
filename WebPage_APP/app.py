@@ -15,7 +15,7 @@ def send_geo(path):
     return send_from_directory('templates', path)
 
 @app.route('/templates/data/data2.csv')
-def send_geo(path):
+def send_data(path):
     return send_from_directory('templates', path)
 
 if __name__ == '__main__':
