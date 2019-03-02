@@ -14,7 +14,7 @@
             // maxZoom: 50
           });
 
-        L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token={accessToken}", {
+        var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token={accessToken}", {
             attribution: "Map data &copy; <a href=\"http://openstreetmap.org\">OpenStreetMap</a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"http://mapbox.com\">Mapbox</a>",
             maxZoom: 18,
             id: "mapbox.streets",
@@ -25,6 +25,7 @@
             // console.log(response);
             var schools = response.features;
             var markers = L.markerClusterGroup();
+            var heatArray = [];
             console.log("went into the json function");
             for (var i = 0; i < schools.length; i++) {
                 console.log("went into the loop");
@@ -33,16 +34,42 @@
                 // console.log([school.lat, school.lon])
                 if (location) {
                 
-                markers.addLayer(L.marker([location.coordinates[1], location.coordinates[0]])
-                       .bindPopup("<h3>" + school.name + "<h3><h3>Great Schools Rating: " + school.gsRating + "<h3>" + "<h3><h3>Parent Rating: " + school.parentRating));
+                    markers.addLayer(L.marker([location.coordinates[1], location.coordinates[0]])
+                           .bindPopup("<h3>" + school.name + "<h3><h3>Great Schools Rating: " + school.gsRating + "<h3>" + "<h3><h3>Parent Rating: " + school.parentRating));
 
+                    heatArray.push([location.coordinates[1], location.coordinates[0], parseInt(school.gsRating)/10]);
+                    // console.log(parseInt(school.gsRating)/10)
                 }
             
-          
-        
             }
-             myMap.addLayer(markers);
-        })
+            myMap.addLayer(markers);  
+
+            var heatmap = L.heatLayer(heatArray, {
+                radius: 20,
+                max: 4,
+                blur: 15,              
+                gradient: {
+                    0.0: 'green',
+                    0.5: 'yellow',
+                    1: 'orange'
+                },
+                minOpacity: 0.05,
+                maxZoom: 11.0
+            }).addTo(myMap);
+
+            var baseLayers = {
+                "Street Map": streetmap
+            };
+
+            var overlayMaps = {
+                "Schools": markers,
+                "Top Schools Heat Map": heatmap
+            };
+      
+            L.control.layers(baseLayers, overlayMaps, {
+              collapsed: false
+            }).addTo(myMap);
+      });
       }
       else if(changedSelection.value == "schoolCrimeandHousingPrice"){
           console.log("chose scatter");
@@ -357,7 +384,7 @@
               d3.select("#map").text("");
               d3.select("#scatter").text("");
               d3.select("#graphs").text("");
-              d3.select("#graphs").html("<img src='../templates/data/graphs.png'>")
+              d3.select("#graphs").html("<img src='../templates/data/graphs.png' width='1500' >")
               
             }
             else if(changedSelection.value == "sunburst") {
