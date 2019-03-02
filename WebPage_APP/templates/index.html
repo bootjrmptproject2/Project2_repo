@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Education System in the USA</title>
+  <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Leaflet JS & CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+
+  <!-- d3 JS -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+
+  <!-- Marker Cluster JS & CSS -->
+    <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
+
+  <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+      <link rel="stylesheet" href="../static/css/d3Style.css">
+  <!-- jquery library  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <!-- ajax library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+
+  <style type="text/css">
+    .jumbotron{
+      margin-top: 20px;
+      background-image: url("../static/book-books-bookshelf-159621.jpg");
+      background-size: cover;
+      color:white;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Education in the US</h1>
+        <p>Make selections below to choose what you'd like to explore in terms of education</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p>This project makes use of the open data bases available in <a href="https://www.greatschools.org/"> Great Schools </a> and <a href="https://factfinder.census.gov/faces/nav/jsf/pages/guided_search.xhtml"> Income data from American FactFinder </a>, on top of these, we analyzed the correlation with <a href="https://catalog.data.gov/Dataset?res_format=CSV&tags=real-estate">House hold incomes</a>  </p>
+        <p>We're looking to provide a platform for people interested in knowing a little bit more about how different demographics affect the education system and vice versa. The following are visualizations brought together by our team of data experts on topics we thought could have interesting correlations. Feel free to use the selection list below to choose between:
+        <ul>
+          <li>
+          Seeing a map of california with layers that include: 
+          <ul>
+            <li> A clustered view of schools in the zone
+            </li>
+            <li> School rating heatmaps
+            </li>
+          </ul>
+          </li>
+          <li> A series of Graphs correlating:  
+            <ul>
+              <li>
+              Rating of Schools vs. Household income
+              </li>
+              <li>
+              Rating of Schools vs Housing prices
+              </li>
+            </ul>
+          </li>
+          <li>
+          An interactive pie chart with the concentration of schools by county 
+          </li>
+        </ul>
+        </p>
+        <p>
+          Feel free to browse the webpage and see all the different types of visualizations we have prepared for you!
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="well">
+          <h5>Select the visualization:</h5>
+          <select id="selGraph">
+            <option value="" selected disabled hidden>Choose here</option>
+            <option value = "clusteredHeatMap">
+              Layered map of California
+            </option>
+            <option value = "schoolCrimeandHousingPrice">
+              Scatter plots
+            </option>
+            <option value = "sunburst">
+              <a href="sunburst.html">
+              School by county chart
+              </a>
+            </option>
+            <option value = "others">
+              Other interesting graphs!
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+ </div>  
+</body>
+
+<body>
+    <div id="scatter">
+    </div>
+</body>
+<body>
+    <div id="graphs">
+    </div>
+</body>
+
+<body> 
+    <div id="map">
+    </div>
+</body>
+  <script src="../static/js/app.js"></script>
+  <!-- <script src="../static/js/app2.js"></script> -->
+  <script src="../static/js/config.js"></script>
+  <script src="../static/js/logic2.js"></script>
+  <script type="Geoschooldata.json"></script>
+    <!-- Leaflet heatmap plugin-->
+  <script type="text/javascript" src="../static/js/leaflet-heat.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-d2b"></script>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="../../../node_modules/d3/build/d3.min.js"></script>
+<script src="../../../build/d2b.js"></script>
+
+<style>
+  body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  #app {
+    height: 500px;
+  }
+</style>
+
+<body>
+  <div id = 'app'>
+    <sunburst-chart :data = 'sunburstChartData'></sunburst-chart>
+  </div>
+
+  <script>
+    var app = new Vue({
+      el: '#app',
+      components: {
+        'sunburst-chart': vued2b.ChartSunburst
+      },
+      data: {
+        sunburstChartData: {
+          label: 'Bay Area Schools',
+          children: [
+            {
+              label: 'Alameda county',
+              children: [
+                {
+                  label: 'Alameda USD',
+                  size: 18
+                },
+                {
+                  label: 'AlbCalifornia School For The Blind (State Special Schl) School Districtany USD',
+                  size: 1
+                },
+                {
+                  label: 'ACalifornia School For The Deaf-Fremont (State Special Schl) School District',
+                  size: 1
+                },
+                {
+                  label: 'Eden Area Rop School District',
+                  size: 1
+                },
+                {
+                  label: 'Albany USD',
+                  size: 6
+                },
+                {
+                  label: 'Berkeley USD',
+                  size: 17
+                },
+                {
+                  label: 'Castro Valley USD',
+                  size: 16
+                },
+                {
+                  label: 'Dublin USD',
+                  size: 13
+                },
+                {
+                  label: 'Emery USD',
+                  size: 2
+                },
+                {
+                  label: 'Fremont USD',
+                  size: 42
+                },
+                {
+                  label: 'Hayward USD',
+                  size: 32
+                },
+                {
+                  label: 'Livermore Valley Joint USD',
+                  size: 16
+                },
+                {
+                  label: 'New Haven USD',
+                  size: 14
+                },
+                {
+                  label: 'Newark USD',
+                  size: 13
+                },
+                {
+                  label: 'Oakland USD',
+                  size: 92
+                },
+                {
+                  label: 'Piedmont USD',
+                  size: 7
+                },
+                {
+                  label: 'Pleasanton USD',
+                  size: 16
+                },
+                {
+                  label: 'San Leandro USD',
+                  size: 13
+                },
+                {
+                  label: 'San Lorenzo USD',
+                  size: 17
+                },
+                {
+                  label: 'Sunol Glen USD',
+                  size: 1
+                },
+                {
+                  label: 'Mountain House ESD',
+                  size: 1
+                },
+                
+              ]
+            },
+            {
+              label: 'San Francisco county',
+              children: [
+                {
+                  label: 'San Francisco County Office Of Education School District',
+                  size: 3
+                },
+                {
+                  label: 'San Francisco County Rop School District',
+                  size: 1
+                },
+                {
+                  label: 'San Francisco Unified School District',
+                  size: 102
+                },
+              ]
+            },
+            {
+              label: 'San Mateo county',
+              children: [
+                {
+                  label: 'Bayshore Elementary School District',
+                  size: 1
+                },
+                {
+                  label: 'Belmont-Redwood Shores Elementary School District',
+                  size: 7
+                },
+                {
+                  label: 'Brisbane Elementary School District',
+                  size: 3
+                },
+                {
+                  label: 'Burlingame Elementary School District',
+                  size: 7
+                },
+                {
+                  label: 'Cabrillo Unified School District',
+                  size: 8
+                },
+                {
+                  label: 'Hillsborough City Elementary School District',
+                  size: 4
+                },
+                {
+                  label: 'Jefferson Elementary School District',
+                  size: 14
+                },
+                {
+                  label: 'Jefferson Union High School District',
+                  size: 6
+                },
+                {
+                  label: 'La Honda-Pescadero Unified School District',
+                  size: 3
+                },
+                {
+                  label: 'Las Lomitas Elementary School District',
+                  size: 2
+                },
+                {
+                  label: 'Menlo Park City Elementary School District',
+                  size: 4
+                },
+                {
+                  label: 'Millbrae Elementary School District',
+                  size: 5
+                },
+                {
+                  label: 'Pacifica School District',
+                  size: 7
+                },
+                {
+                  label: 'Portola Valley Elementary School District',
+                  size: 2
+                },
+                {
+                  label: 'Ravenswood City Elementary School District',
+                  size: 9
+                },
+                {
+                  label: 'Redwood City Elementary School District',
+                  size: 16
+                },
+                {
+                  label: 'San Bruno Park Elementary School District',
+                  size: 7
+                },
+                {
+                  label: 'San Carlos Elementary School District',
+                  size: 2
+                },
+                {
+                  label: 'San Mateo County Office Of Education School District',
+                  size: 4
+                },
+                {
+                  label: 'San Mateo County Rop School District',
+                  size: 1
+                },
+                {
+                  label: 'San Mateo Union High School District',
+                  size: 9
+                },
+                {
+                  label: 'San Mateo-Foster City School District',
+                  size: 20
+                },
+                {
+                  label: 'Sequoia Union High School District',
+                  size: 6
+                },
+                {
+                  label: 'South San Francisco Unified School District',
+                  size: 18
+                },
+                {
+                  label: 'Woodside Elementary School District',
+                  size: 1
+                }
+              ]
+            },
+            {
+              label: 'Santa Cruz county',
+              children: [
+                {
+                  label: 'Bonny Doon Union Elementary School District',
+                  size: 1
+                },
+                {
+                  label: 'Happy Valley Elementary School District',
+                  size: 1
+                },
+                {
+                  label: 'Live Oak Elementary School District',
+                  size: 5
+                },
+                {
+                  label: 'Mountain Elementary School District',
+                  size: 1
+                },
+                {
+                  label: 'Pacific Elementary School District',
+                  size: 1
+                },
+                {
+                  label: 'Pajaro Valley Unified School District',
+                  size: 28
+                },
+                {
+                  label: 'San Lorenzo Valley Unified School District',
+                  size: 4
+                },
+                {
+                  label: 'Santa Cruz City Elementary School District',
+                  size: 5
+                },
+                {
+                  label: 'Santa Cruz City High School District',
+                  size: 9
+                },
+                {
+                  label: 'Santa Cruz County Office Of Education School District',
+                  size: 2
+                },
+                {
+                  label: 'Santa Cruz County Rop School District',
+                  size: 1
+                },
+                {
+                  label: 'Scotts Valley Unified School District',
+                  size: 4
+                },
+                {
+                  label: 'Soquel Union Elementary School District',
+                  size: 5
+                },
+                
+              ]
+            },
+            {
+              label: 'Santa Clara county',
+              children: [
+                {
+                  label: 'Alum Rock Union Elementary School District',
+                  size: 24
+                },
+                {
+                  label: 'Berryessa Union Elementary School District',
+                  size: 14
+                },
+                {
+                  label: 'Cambrian School District',
+                  size: 2
+                },
+                {
+                  label: 'Campbell Union High School District',
+                  size: 8
+                },
+                {
+                  label: 'Campbell Union School District',
+                  size: 1
+                },
+                {
+                  label: 'Cupertino Union School District',
+                  size: 25
+                },
+                {
+                  label: 'East Side Union High School District',
+                  size: 19
+                },
+                {
+                  label: 'Evergreen Elementary School District',
+                  size: 18
+                },
+                {
+                  label: 'Franklin-Mckinley Elementary School District',
+                  size: 15
+                },
+                {
+                  label: 'Fremont Union High School District',
+                  size: 7
+                },
+                {
+                  label: 'Gilroy Unified School District',
+                  size: 16
+                },
+                {
+                  label: 'Lakeside Joint School District',
+                  size: 1
+                },
+                {
+                  label: 'Loma Prieta Joint Union Elementary School District',
+                  size: 2
+                },
+                {
+                  label: 'Los Altos Elementary School District',
+                  size: 9
+                },
+                {
+                  label: 'Los Gatos Union Elementary School District',
+                  size: 5
+                },
+                {
+                  label: 'Los Gatos-Saratoga Joint Union High School District',
+                  size: 2
+                },
+                {
+                  label: 'Luther Burbank School District',
+                  size: 1
+                },
+                {
+                  label: 'Metro Education School District',
+                  size: 1
+                },
+                {
+                  label: 'Milpitas Unified School District',
+                  size: 14
+                },
+                {
+                  label: 'Moreland School District',
+                  size: 7
+                },
+                {
+                  label: 'Morgan Hill Unified School District',
+                  size: 14
+                },
+                {
+                  label: 'Mount Pleasant Elementary School District',
+                  size: 4
+                },
+                {
+                  label: 'Mountain View Whisman  School District',
+                  size: 12
+                },
+                {
+                  label: 'Mountain View-Los Altos Union High School District',
+                  size: 4
+                },
+                {
+                  label: 'North County Regional Occupational Center Program (Roc P) School District',
+                  size: 1
+                },
+                {
+                  label: 'Oak Grove Elementary School District',
+                  size: 21
+                },
+                {
+                  label: 'Orchard Elementary School District',
+                  size: 1
+                },
+                {
+                  label: 'Palo Alto Unified School District',
+                  size: 20
+                },
+                {
+                  label: 'San Jose Unified School District',
+                  size: 42
+                },
+                {
+                  label: 'Santa Clara County Office Of Education School District',
+                  size: 2
+                },
+                {
+                  label: 'Santa Clara County Rop School District',
+                  size: 1
+                },
+                {
+                  label: 'Santa Clara Unified School District',
+                  size: 28
+                },
+                {
+                  label: 'Saratoga Union Elementary School District',
+                  size: 4
+                },
+                {
+                  label: 'Sunnyvale School District',
+                  size: 10
+                },
+                {
+                  label: 'Union Elementary School District',
+                  size: 8
+                }
+              ]
+            },
+            {
+              label: 'Contra Costa county',
+              children: [
+              {
+                  label: 'Acalanes Union High School District',
+                  size: 6
+                },
+                {
+                  label: 'Antioch Unified School District',
+                  size: 26
+                },  
+                {
+                  label: 'Brentwood Union Elementary School District',
+                  size: 11
+                },
+                {
+                  label: 'Byron Union Elementary School District',
+                  size: 3
+                },
+                {
+                  label: 'Canyon Elementary School District',
+                  size: 1
+                },
+                {
+                  label: 'Contra Costa County Office Of Education School District',
+                  size: 6
+                },
+                {
+                  label: 'Contra Costa County Rop School District',
+                  size: 1
+                },
+                {
+                  label: 'John Swett Unified School District',
+                  size: 4
+                },
+                {
+                  label: 'Knightsen Elementary School District',
+                  size: 2
+                },
+                {
+                  label: 'Lafayette Elementary School District',
+                  size: 5
+                },
+                {
+                  label: 'Liberty Union High School District',
+                  size: 6
+                },
+                {
+                  label: 'Martinez Unified School District',
+                  size: 9
+                },
+                {
+                  label: 'Moraga Elementary School District',
+                  size: 4
+                },
+                {
+                  label: 'Mountain House Elementary School District',
+                  size: 1
+                },
+                {
+                  label: 'Mt. Diablo Unified School District',
+                  size: 53
+                },
+                {
+                  label: 'Oakley Union Elementary School District',
+                  size: 8
+                },
+                {
+                  label: 'Orinda Union Elementary School District',
+                  size: 5
+                },
+                {
+                  label: 'Pittsburg Unified School District',
+                  size: 14
+                },
+                {
+                  label: 'San Ramon Valley Unified School District',
+                  size: 36
+                },
+                {
+                  label: 'Walnut Creek Elementary School District',
+                  size: 7
+                },
+                {
+                  label: 'West Contra Costa Unified School District',
+                  size: 54
+                },
+                
+              ]
+            }
+          ]
+        }
+      }
+    });
+  </script>
+</body>
+</html>
