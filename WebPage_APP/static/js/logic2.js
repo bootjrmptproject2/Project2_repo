@@ -3,11 +3,10 @@
 
   changedSelection.addEventListener("change", function() {
     // console.log(this.selectedIndex.text);
-    switch(changedSelection.value) {
-        case "clusteredHeatMap":
+    if(changedSelection.value =="clusteredHeatMap") {
         console.log("chose clusteredHeatMap");
-
-
+        d3.select("#map").text("");
+        d3.select("#scatter").text("");
         var myMap = L.map("map", {
             center: [37.8272, -122.2913],
             zoom: 11
@@ -42,9 +41,12 @@
         
             }
              myMap.addLayer(markers);
-        });
-        case "schoolCrimeandHousingPrice":
+        })
+      }
+      else if(changedSelection.value == "schoolCrimeandHousingPrice"){
           console.log("chose scatter");
+          d3.select("#map").text("");
+          d3.select("#scatter").text("");
           // Define the parameters for the chart's space
             var width = 800;
             var height = width - width / 4;
@@ -344,18 +346,12 @@
                     updateText(axis, self);
                 }
               }
-            });
+            })
+            }
           }
-        // console.log('yay');
-
-        break;
-        // case y:
-          // code block
-          // break;
-        default:
-          // code block
-       }  
-  });
+        })
+          
+        
 
   
 
