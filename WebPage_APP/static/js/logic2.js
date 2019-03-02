@@ -7,6 +7,7 @@
         console.log("chose clusteredHeatMap");
         d3.select("#map").text("");
         d3.select("#scatter").text("");
+        d3.select("#graphs").text("");
         var myMap = L.map("map", {
             center: [37.8272, -122.2913],
             zoom: 11
@@ -47,6 +48,7 @@
           console.log("chose scatter");
           d3.select("#map").text("");
           d3.select("#scatter").text("");
+          d3.select("#graphs").text("");
           // Define the parameters for the chart's space
             var width = 800;
             var height = width - width / 4;
@@ -345,10 +347,24 @@
                   // Update the formatting of the labels
                     updateText(axis, self);
                 }
+
               }
             })
             }
-          }
+            }
+            else if(changedSelection.value =="others") {
+              console.log("chose other graphs");
+              d3.select("#map").text("");
+              d3.select("#scatter").text("");
+              d3.select("#graphs").text("");
+              d3.select("#graphs").html("<img src='../templates/data/graphs.png'>")
+              
+            }
+            else if(changedSelection.value == "sunburst") {
+              console.log("chose sunburst");
+              window.open("sunburst.html");
+            }
+        
         })
           
         
